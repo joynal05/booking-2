@@ -1,0 +1,605 @@
+1.35
+
+- contact form fix
+- WooCommerce compatibility maintenance
+- revslider upgrade 6.2.23
+
+Files changed
+
+functions.php
+includes/plugins/revslider/revslider.zip
+includes/theme_actions.php
+
+1.34
+
+- revslider upgrade 6.2.21
+- fixed issue with WooCommerce 4.4 throwing "Call to undefined function wc_get_loop_prop()" error
+- prevented google maps override
+- login retries
+- php 7.3 fixes
+- safari css layout width adjusted
+
+Files changed
+
+css/style.css
+css/style-rtl.css
+functions.php
+home.php
+includes/classes/abstracts/transfers_entity.php
+includes/parts/destination-item.php
+includes/plugins/revslider/revslider.zip
+includes/plugins/transers-plugin/transfers-plugin.zip
+includes/theme_actions.php
+page-advanced-search.php
+page-booking-form.php
+page-faq-list.php
+page-service-list.php
+page-user-login.php
+page-user-register.php
+page-user-resetpassword.php
+style.css
+
+1.33
+
+- enabled woocommerce lightbox
+- faq, destination, services list sort by fix
+- theme options select fields css fix
+
+Files changed:
+
+css/admin-custom.css
+includes/theme_actions.php
+includes/theme_metaboxes.php
+
+1.32
+
+- fixed custom destination fields
+- changed hour / minute sliders to dropdown in search widget
+- upgraded revslider to latest version
+- allow selection of minimum searchable time via Theme options -> Configuration Settings
+- adjusted various styles
+
+Files changed:
+
+functions.php
+css/admin-custom.css
+css/jquery-ui.theme.min.css
+css/style.css
+css/style-rtl.css
+includes/plugins/transers-plugin/transfers-plugin.zip
+includes/plugins/revslider/revslider.zip
+options.php
+style.css
+
+1.31
+
+- added 100% wide page template for page builders
+- contact map zoom in and out position fix
+- various small css adjustments
+
+Files changed:
+
+functions.php
+css/admin-custom.css
+css/style.css
+css/style-rtl.css
+includes/plugins/transers-plugin/transfers-plugin.zip
+js/contact.js
+page-100-wide.php
+style.css
+
+1.3
+
+- timezone fix for calendar to prevent dates that are before the server timezone
+- return trip rounding removed.
+- code cleanup
+- icons file size reduced
+- renamed languages/default.po to transfers.pot
+- Envato theme features compliance
+- Envato theme security compliance
+- Envato theme coding compliance
+- Revolution Slider update
+
+Files changed:
+header.php
+footer.php
+functions.php
+css/icons.css
+css/style.css
+css/style-rtl.css
+fonts/fonts/themeenergy.woff
+fonts/fonts/themeenergy.woff2
+includes/classes/abstracts/transfers_entity.php
+includes/framework/includes/class-options-media-uploader.php
+includes/framework/js/options-custom.js
+includes/plugins/metaboxes/js/scripts.js
+includes/plugins/metaboxes/meta_box.php
+includes/plugins/revslider/revslider.zip
+includes/plugins/transers-plugin/transfers-plugin.zip
+includes/theme_ajax.php
+includes/themeenergy_common.php
+js/scripts.js
+options.php
+page-advanced-search.php
+sidebar-home-content.php
+style.css
+theme_globals.php
+
+1.21
+
+- fixed woocommerce booking form field issues.
+
+1.20
+
+- fixed transfer item time format display
+- fixed woocommerce deprecated notice.
+- fixed comment reply link issue in comments.
+
+Files changed:
+
+includes/parts/transfer-item.php
+includes/plugins/transfers-plugin/transfers-plugin.zip
+includes/theme_utils.php
+style.css
+functions.php
+
+1.19
+
+- Fixed issue with Theme options WooCommerce statuses not saving after checked.
+
+Files changed:
+
+css/admin-custom.css
+functions.php
+includes/framework/includes/class-options-framework-admin.php
+includes/framework/includes/class-options-importer.php
+includes/framework/includes/class-options-sanitization.php
+includes/framework/js/media-uploader.js
+includes/framework/js/options-custom.js
+includes/framework/options-framework.php
+includes/framework/css/optionsframework.min.css
+includes/plugins/transfers-plugin/transfers-plugin.zip
+options.php
+
+1.18
+
+- Removed base64 encoding of export/import of options
+- Checked php 7.0 compatibility
+- Fixed archive.php for post tags to make sure posts with the correct terms are pulled up on /tag/term-slug
+- Fixed issue with deletion of bookings and orders
+- Fixed translation of theme options keywords.
+- Fixed blank space when wp admin bar is on on homepage
+- Added tripadvisor icon to social links
+- Updated Slider Revolution plugin
+
+Files changed:
+
+archive.php
+css/style.css
+css/style-rtl.css
+header.php
+functions.php
+includes/framework/includes/class-options-framework-admin.php
+includes/framework/includes/class-options-importer.php
+includes/framework/includes/class-options-media-uploader.php
+includes/framework/includes/class-options-sanitization.php
+includes/plugins/class-tgm-plugin-activation.php
+includes/plugins/transfers-plugin/transfers-plugin.zip
+includes/theme_actions.php
+includes/theme_filters.php
+languages/default.mo
+languages/default.po
+style.css
+
+1.17
+
+- fixed booking time format when editing booking
+- fixed issue with single destination not showing to destination names
+- fixed connection destinations table bug
+- updated Slider revolution
+
+Files changed:
+
+functions.php
+includes/plugins/revslider/revslider.zip
+includes/plugins/transfers-plugin/transfers-plugin.zip
+style.css
+
+1.16
+
+- Fixed booking delete synchronisation with WooCommerce orders bug
+
+Files changed:
+
+changelog.txt
+functions.php
+includes/plugins/transfers-plugin/transfers-plugin.zip
+style.css
+
+1.15
+
+- Fixed get_country bug with WooCommerce checkout screen.
+- Fixed hero upload js
+
+Files changed:
+
+includes/plugins/transfers-plugin/transfers-plugin.zip
+includes/plugins/widgets/widget-hero-unit.js
+functions.php
+style.css
+
+1.14
+
+- Fixed connecting destinations WPML issue
+- Implemented WooCommerce 3.0 compatibility
+
+Files changed:
+
+includes/plugins/transfers-plugin/transfers-plugin.zip
+functions.php
+style.css
+
+1.13
+
+- fixed departure and return trip search results date format bug
+
+Files changed:
+
+includes/plugins/transfers-plugin/transfers-plugin.zip
+page-booking-form.php
+functions.php
+style.css
+
+1.12
+
+- fixed extra fields storing when woocommerce is not used.
+- export settings field no longer disabled in theme options
+- fixed return trip entry in search results
+- fixed resize issue on location list
+- updated Slider Revolution
+- enabled marking of extra items as required
+- fixed calendar date issue in safari
+
+Files changed:
+
+functions.php
+includes/plugins/transfers-plugin/transfers-plugin.zip
+includes/framework/includes/class-options-importer.php
+includes/plugins/revslider/revslider.zip
+page-advanced-search.php
+page-booking-form.php
+js/scripts.js
+style.css
+
+1.11
+
+- added reset_post_data to sidebars
+- fixed viewport
+- fixed parse error in theme red
+- updated Slider Revolution
+- fixed home scroll issue
+- fixed long-standing issue of transfers product not showing details in cart on occassions.
+
+Files changed:
+
+functions.php
+header.php
+sidebar-above-footer.php
+sidebar-home-content.php
+sidebar-left.php
+sidebar-right.php
+css/theme-red.css
+includes/plugins/revslider/revslider.zip
+includes/plugins/transfers-plugin/transfers-plugin.zip
+js/scripts.js
+
+1.10
+
+- Fixed blog category to correctly show posts of specific category
+- Added category filter to blog index page.
+- Upwards rounding of times for slot increments instead of downwards.
+- Removed duplicate google map in contact 7 form.
+- Fixed woocommerce showing of dynamic booking form fields in email and in order receipt.
+- Fixed -webkit display issue on faq page
+- Updated Slider Revolution
+- Improved display of the extra items table on mobile screens
+- Improved image layout on destinations list page
+- Removed social icons
+- Added fontAwesome icons
+- Added Whatsapp and YouTube icons to Social Widget
+- Fixed blog index page to properly display posts.
+
+Files changed:
+
+archive.php
+functions.php
+home.php
+css/style.css
+css/style-rtl.css
+includes/plugins/transfers-plugin/transfers-plugin.zip
+includes/plugins/metaboxes/meta_box.php
+includes/plugins/revslider/revslider.zip
+includes/plugins/widgets/widget-social.php
+includes/theme_actions.php
+includes/theme_ajax.php
+includes/theme_meta_boxes.php
+includes/theme_utils.php
+js/scripts.js
+page-advanced-search.php
+page-booking-form.php
+page-contact-form-7.php
+style.css
+
+1.095
+
+- fixed connecting destinations list problem
+- update billing fields with changes in woocommerce when changed via theme options.
+
+Files changed:
+
+style.css
+functions.php
+single-destination.php
+includes/plugins/transfers-plugin/transfers-plugin.zip
+
+1.09
+
+- Upgraded TGM-Plugin-Activation plugin
+- Checkout fix for non-transfers product purchases (WooCommerce).
+- Fixed WPML WooCommerce total 0 incompatibility.
+- Fixed timeslot selection wrong minutes issue.
+- Fixed sorting for return trip by price or minute.
+- Used date_i18n instead of date to display internationalized formatted dates.
+- Extra items properly translatable by WPML.
+- Changed scrollto for home page booking button so search box is not cut off on scroll.
+- Various css adjusted.
+- Added sort by fields to destination and service lists.
+- Removed WOW js
+- Added Revolution Slider
+- added instragram url to social widget
+- Fixed WooCommerce category image upload issue.
+- Fixed hero unit upload image click on widget add.
+- Allow disable/enable of shared transfers from Theme options -> Configuration settings.
+- Transfer duration is now taken into account when showing next available transfer of a "by x minutes" transfer type.
+- Search results now correctly take into account search for people count query.
+- Fixed destinations custom field creation.
+- Booking form can now be dynamically modified (fields added or existing fields hidden/shown).
+- Added google api key setting for maps.
+- Replaced icojam icons with 2300+ premium icons
+- Added revolution slider prompt for installation via Admin interface.
+
+Files changed:
+
+css/admin-custom.css
+css/fonts.css
+css/style.css
+css/style-rtl.css
+css/theme-beige.css
+css/theme-dblue.css
+css/theme-dgreen.css
+css/theme-dgrey.css
+css/theme-lblue.css
+css/theme-lgreen.css
+css/theme-lime.css
+css/theme-orange.css
+css/theme-peach.css
+css/theme-pink.css
+css/theme-purple.css
+css/theme-red.css
+css/theme-teal.css
+css/theme-turqouise.css
+css/theme-yellow.css
+fonts/
+functions.php
+includes/framework/includes/class-options-framework-admin.php
+includes/framework/includes/class-options-interface.php
+includes/framework/includes/class-options-media-uploader.php
+includes/framework/includes/class-options-sanitization.php
+includes/framework/options-framework.php
+includes/framework/css/color-picker.min.css
+includes/framework/includes/class-options-importer.php
+includes/framework/js/color-picker.min.js
+includes/framework/js/iris.min.js
+includes/parts/transfer-item.php
+includes/plugins/class-tgm-plugin-activation.php
+includes/plugins/transfers-plugin/transfers-plugin.zip
+includes/plugins/widgets/widget-contact.php
+includes/plugins/widget-iconic-features.php
+includes/plugins/widgets/widget-social.php
+includes/plugins/widgets/widget-hero-unit.php
+includes/plugins/widgets/widget-hero-unit.js
+includes/themeenergy_common.php
+includes/theme_actions.php
+includes/theme_globals.php
+includes/theme_ajax.php
+includes/theme_utils.php
+js/scripts.js
+options.php
+page-advanced-search.php
+page-booking-form.php
+page-contact-form-7.php
+page-contact.php
+page-destination-list.php
+page-service-list.php
+sidebar-home-content.php
+single-destination.php
+style.css
+
+1.08.01
+
+- Fixed booking page layout
+- Removed responsive tables plugin
+- Fixed large resolutions portrait hero image
+- Fixed extra items not being translated with WPML properly in checkout.
+
+Files changed:
+includes/theme_actions.php
+css/style.css
+css/style-rtl.css
+page-booking-form.php
+includes/plugins/transfers-plugin/transfers-plugin.zip
+page-advanced-search.php
+
+1.08
+
+- Disabled clicking on past dates in search datepickers.
+- Added translatable strings for the transfers-plugin back in our default.po file.
+- Fixed pagination of blog index page.
+- Added ability to transfer search results by either price of by minute (via Theme options -> Configuration settings). Default is by minute.
+- Fixed "cart is empty" problem for logged out users introduced by latest WooCommerce version.
+- Fixed no results found error that appears even though results were shown on search page.
+- Added missing sidebar under header file.
+- Fixed datepicker z-index
+- Fixed WooCommerce responsive issues
+- Fixed extra items responsive tables issue
+- Fixed Hero IOS portrait issues
+
+Files changed:
+
+archive.php
+functions.php
+home.php
+index.php
+includes/plugins/transfers-plugin/transfers-plugin.zip
+includes/plugins/transfers-plugin/transfers-plugin.zip
+includes/theme_actions.php
+includes/theme_globals.php
+css/style.css
+css/style-rtl.css
+js/account.js
+js/contact.js
+js/scripts.js
+js/responsive-tables.js
+languages/default.po
+languages/default.mo
+options.php
+page-advanced-search.php
+page-booking-form.php
+search.php
+sidebar-under-header.php
+
+1.07
+
+- Fixed home page clickability issue.
+- Fixed select box on WooCommerce product page.
+- Fixed issues with WPML compatibility.
+- Properly enable/disable extra items via Theme options.
+- Fixed bugs with IE broken js.
+
+Files changed
+
+css/style.css
+css/style-rtl.css
+functions.php
+js/scripts.js
+languages/default.po
+languages/default.mo
+single-destination.php
+includes/parts/transfer-item.php
+includes/plugins/transfers-plugin/transfers-plugin.zip
+includes/themeenergy_common.php
+page-booking-form.php
+
+NOTE: Upgrade instructions are now located in upgrade.txt
+
+CHANGELOG
+
+1.06
+
+- Fixed issues with calendar and Greek translation.
+- Fixed by minute booking availability issue.
+- Upgraded timepicker language files and datetimepicker plugin code.
+- Fixed page zoom on ios.
+- Moved upgrade instructions to upgrade.txt.
+- Replaced fonts
+- Fixed 404 html error
+
+Files changed
+
+404.php
+css/fonts.css
+css/style.css
+css/style-rtl.css
+/fonts/
+functions.php
+header.php
+includes/parts/transfer-item.php
+includes/plugins/transfers-plugin/transfers-plugin.zip
+includes/plugins/widgets/widget-contact.php
+includes/theme_actions.php
+options.php
+upgrade.txt.
+
+1.05
+
+- fix for when extra items are disabled.
+- fixed calendar translation issue.
+- fixed responsiveness of micro location layout
+
+Files changed:
+
+css/style.css
+css/style-rtl.css
+includes/plugins/transfers-plugin/transfers-plugin.zip
+includes/themeenergy_common.php
+page-booking-form.php
+
+1.04
+
+- fixed issue with booking email not containing return data.
+- changed datetime picker time format to 24 hours.
+- fixed google map marker positioning on zoom issue for contact map.
+- fixed child theme compatibility
+- fixed available seats check
+- fixed scroll issue on select in booking form
+- fixed private vs shared price (private is for entire vehicle, shared is for each person).
+- added touch support for mobile view
+
+functions.php
+css/style.css
+css/style-rtl.css
+includes/plugins/transfers-plugin/transfers-plugin.zip
+includes/themeenergy_common.php
+includes/parts/transfer-item.php
+js/contact.js
+page-advanced-search.php
+page-booking-form.php
+
+v1.03
+
+- fixed bug with extra items not being created.
+
+includes/plugins/transfers-plugin/transfers-plugin.zip
+functions.php
+
+v1.02
+
+- fixed calendar date internationalization.
+- fixed issue with metabox save.
+- fixed facebook and twitter id in social footer widget.
+- added tab called "database" to Theme options with button to create custom tables if custom tables are missing.
+- only allow override of wp login if a login page is set to prevent admin lockout.
+- fixed issue where private vehicle was available if a seat had been booked for share.
+- hide price display in single destination available listing if price is zero (shared or private).
+- fixed missing terms page url bug.
+- fixed various small css related issues
+
+Files changed:
+
+page-advanced-search.php
+page-booking-form.php
+single-destination.php
+css/style.css
+css/style-rtl.css
+includes/plugins/metaboxes/meta_box.php
+includes/plugins/transfers-plugin/includes/widgets/widget-advanced-search.php
+includes/plugins/transfers-plugin/includes/metaboxes/meta_box.php
+includes/plugins/transfers-plugin/transfers-plugin.zip
+includes/plugins/widgets/widget-social.php
+includes/parts/transfer-item.php
+includes/theme_globals.php
+includes/theme_utils.php
+languages/default.mo
+languages/default.po
+options.php
+removed all files and folders inside theme folder includes/plugins/transfers-plugin except transfers-plugin.zip which is the only one needed.

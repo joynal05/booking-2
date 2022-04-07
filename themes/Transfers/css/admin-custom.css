@@ -1,0 +1,142 @@
+/*CUSTOM CSS FOR ADMIN PANEL THEME OPTIONS*/
+.menu-icon-destination .dashicons-admin-post:before 	{content: "\f230";}
+.menu-icon-extra_item .dashicons-admin-post:before 	{content: "\f119";}
+.menu-icon-transport_type .dashicons-admin-post:before 	{content: "\f119";}
+.menu-icon-faq .dashicons-admin-post:before 	{content: "\f119";}
+.menu-icon-service .dashicons-admin-post:before 	{content: "\f119";}
+.toplevel_page_transfers_bookings_management_admin .dashicons-admin-generic:before 	{content: "\f508";}
+.toplevel_page_transfers_availability_management_admin .dashicons-admin-generic:before 	{content: "\f469";}
+
+.themeenergy-options 			{width:100%;background:#273238 url(./images/theme-options-bg.png) 100% 100% no-repeat;padding:26px 0;float:left;}
+.themeenergy-options-logo 	{background:url(./images/theme-options-logo.png) 0 0 no-repeat;width:210px;height:48px;float:left;margin:0 11px;text-indent:-99999px;}
+.docs-link									{color:#fff;float:right;text-decoration:none;margin:14px 130px 0 0;}
+.docs-link:hover 						{color:#FF6F00;}
+
+#optionsframework-wrap .wrap h2		{padding-bottom:20px !important;}
+
+#optionsframework-wrap div.nav-tab-wrapper 	{float:left;width:20%;padding:0 !important;}
+#optionsframework-wrap .metabox-holder 			{float:left;width:80% !important;padding:0;background:#fff;}
+
+#optionsframework-wrap .metabox-holder h3		{font-size:20px;padding:20px 20px 0;border:none;background:none;}
+#optionsframework-wrap .group .section				{border-bottom:1px solid #ddd;padding:10px 20px 15px;}
+
+.postbox {border:none;}
+#optionsframework-wrap .nav-tab					{-webkit-box-sizing:border-box;box-sizing:border-box;float:left;width:100%;padding:8px 10px 10px 40px;margin:0;color:#fff;border:none;background:#263238;font-weight:400;}
+#optionsframework-wrap .nav-tab 					{position:relative;}
+#optionsframework-wrap .nav-tab:before 		{color:#b4b9be;position:absolute;top:11px;left:9px;line-height: 1;display: inline-block;width: 20px;height: 20px;font-size: 20px;line-height: 1;font-family: dashicons;text-decoration: inherit;font-weight: 400;font-style: normal;vertical-align: top;text-align: center;transition: color .1s ease-in 0;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+
+#optionsframework-wrap #options-group-1-tab:before {content: '\f111';}
+#optionsframework-wrap #options-group-2-tab:before {content: "\f108";}
+#optionsframework-wrap #options-group-3-tab:before {content: "\f107";}
+#optionsframework-wrap #options-group-4-tab:before {content: "\f119";}
+#optionsframework-wrap #options-group-5-tab:before {content: "\f119";}
+#optionsframework-wrap #options-group-6-tab:before {content: '\f230';}
+#optionsframework-wrap #options-group-7-tab:before {content: "\f119";}
+#optionsframework-wrap #options-group-8-tab:before {content: '\f508';}
+#optionsframework-wrap .woocommercesettings-tab:before {content: "\f174";}
+#optionsframework-wrap .importexport-tab:before {content: "\f310";}
+#optionsframework-wrap .databaseupgrades-tab:before {content: '';}
+
+#optionsframework-wrap .nav-tab:hover,
+#optionsframework-wrap .nav-tab:focus,
+#optionsframework-wrap .nav-tab-active 		{color:#fff;background:#FF6F00;}
+#optionsframework-wrap .nav-tab:hover:before,
+#optionsframework-wrap .nav-tab:focus:before,
+#optionsframework-wrap .nav-tab-active:before 		{color:#fff;}
+
+@media screen and (max-width: 1300px) {
+	#optionsframework-wrap h2.nav-tab-wrapper 	{width:23%;}
+	#optionsframework-wrap .metabox-holder 			{width:77%;}
+}
+
+@media screen and (max-width: 1100px) {
+	#optionsframework-wrap .nav-tab {text-align:center;padding:37px 10px 15px;width:100%;line-height:1.42;white-space:normal;}
+	#optionsframework-wrap .nav-tab:before {left:0;width:100%;}
+}
+
+@media screen and (max-width: 600px) {
+	#optionsframework-wrap .nav-tab {text-indent:-99999px;padding:15px;}
+	#optionsframework-wrap .nav-tab:before {text-indent:0;font-size:26px;}
+	.docs-link	 {float:left;margin:10px 10px 0;}
+}
+
+/* tabs & fields*/
+#optionsframework .ui-draggable *,
+#optionsframework .ui-sortable * {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+#optionsframework .ui-draggable .ui-state-default,
+#optionsframework .ui-sortable .ui-state-default 										{padding:15px 15px 15px 40px;background:#eee;position:relative;margin:0 0 -1px;float:left;width:100%;}
+#optionsframework .ui-draggable .ui-state-default:before,
+#optionsframework .ui-sortable .ui-state-default:before 							{content:"";background: url(./images/sprite.png) -68px -100px no-repeat;width:20px;height:17px;position:absolute;top:20px;left:10px;}
+#optionsframework .ui-draggable .ui-state-default:nth-child(2n),
+#optionsframework .ui-sortable .ui-state-default:nth-child(2n) 					{background:#f8f8f8;}
+#optionsframework .ui-draggable .ui-icon-close,
+#optionsframework .ui-sortable .ui-icon-close {position:absolute;top:15px;right:15px;cursor:pointer;z-index:99999px;}
+
+#optionsframework .controls .of-input-wrap label,
+#optionsframework .controls .of-select-wrap label  {width:80px;display:inline-block;}
+.docopy_form_field,.docopy_field {margin:20px 0 4px !important;}
+
+#optionsframework .controls .of-repeat-form-fields .of-input-wrap {width:100% !important;}
+#optionsframework .controls .of-repeat-form-fields .of-input-wrap input[type="text"] {width:50% !important;max-width:100%;}
+#optionsframework .controls .of-repeat-form-fields .of-select-wrap {display:inline-block;margin:15px 0 0;}
+#optionsframework .controls .of-repeat-form-fields .of-select-wrap select {width:200px;margin:0;}
+
+#optionsframework .controls .checboxes {position:absolute;top:18px;left:65%;width:300px !important;}
+#optionsframework .controls .checboxes .of-check-wrap {width:100% !important;margin:0 0 7px;}
+#optionsframework .controls .of-check-wrap input {float:left;padding:0;margin:-1px 6px 0 0;}
+#optionsframework .controls .of-check-wrap input {float:left;padding:0;margin:-1px 6px 0 0;}
+
+@media screen and (max-width: 1100px) {
+#optionsframework .controls .checboxes			{width:100% !important;position:static;margin-top:15px;}
+#optionsframework .controls .checboxes .of-check-wrap{width:33.3333% !important;float:left;}
+}
+
+@media screen and (max-width: 782px) {
+#optionsframework .section .controls {min-width:100% !important;padding-right:0 !important;width:100% !important;}
+#optionsframework .controls .checboxes .of-check-wrap{width:100% !important;}
+#optionsframework .mini .controls, #optionsframework .mini .controls input {width:100% !important;}
+#optionsframework .section .explain {max-width:100% !important;}
+#optionsframework .section.section-checkbox .explain {max-width:85% !important;}
+}
+
+/*core override*/
+#optionsframework {max-width:100% !important;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;margin-bottom:0;}
+
+@media screen and (min-width: 783px) {
+#optionsframework input:not(.button), #optionsframework select {padding:9px;}
+#optionsframework input[type=radio],#optionsframework input[type=checkbox],
+#optionsframework input[type=radio]:checked:before, #optionsframework input[type=checkbox]:checked:before {width:22px;height:22px;}
+#optionsframework input[type=radio]:checked:before, #optionsframework input[type=checkbox]:checked:before {margin:0 0 0 -2px;}
+#optionsframework .section .explain {margin-top:3px;}
+#optionsframework .section-multicheck label, #optionsframework .section-radio label {line-height:22px;}
+
+#optionsframework-submit .button-primary,
+#optionsframework-submit .button-secondary {height:40px;line-height:36px;padding:0 15px 1px !important;}
+#titlediv #title {padding:7px 9px;height:auto;}
+
+#optionsframework #post-status-info, #optionsframework .postbox  {-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+#optionsframework-submit {background-color:#fff !important;padding:20px !important;border-top:none !important;}
+#optionsframework .group {padding-bottom:0 !important;}
+
+#optionsframework .mini .controls, #optionsframework .mini .controls input {min-width:200px !important;width:200px !important;}
+#optionsframework .mini .controls select, #optionsframework .section .mini .controls {width:200px !important;}
+#optionsframework .section-repeat_tab .controls,
+#optionsframework .section-repeat_extra_field .controls,
+#optionsframework .section-repeat_review_field .controls,
+#optionsframework .section-repeat_form_field .controls {padding-right:0 !important;width:100% !important;}
+
+#optionsframework #section-completed_order_woocommerce_statuses .controls {width:auto !important;min-width:200px !important;}
+}
+
+.wp-admin select  {max-width:100%;}
+.form-table td table {border-collapse:collapse;border-spacing:0;}
+.form-table td table th {border:1px solid #ddd;background:none;padding:5px !important;}
+.form-table td table td {border:1px solid #ddd;background:#fff;padding:5px !important;}
+.form-table td textarea {resize:both;width:90%;}
+.form-table input[type=number] {height: 37px;line-height: 1;}
+.form-table input[type=checkbox],.form-table input[type=radio]  {padding:0 !important;min-width:1px !important;width:18px;height:18px;}
+
+#availability_entry_form .form-table th,#availability_entry_form .form-table td,#booking_entry_form .form-table th,#booking_entry_form .form-table td {border-bottom:1px solid #dedede;padding:10px;vertical-align:middle;}
+#availability_entry_form .form-table input,#booking_entry_form .form-table input {padding:8px 10px;min-width:250px;}
+#availability_entry_form .form-table select,#booking_entry_form .form-table select {height:40px;line-height:40px;min-width:250px;max-width:250px;line-height: 1;}
+

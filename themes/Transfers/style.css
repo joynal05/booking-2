@@ -1,0 +1,23 @@
+/*
+Theme Name: Transfers
+Theme URI: http://themeforest.net/item/transfers-transport-and-car-hire-wordpress-theme/12481479
+Author: themeenergy
+Author URI: http://themeforest.net/user/themeenergy
+Description: Transfers is a responsive WordPress theme ideal for car transfer portals, travel agencies, travel blogs etc. It would suit any business with slight customization.
+Tags: one-column, two-columns, right-sidebar, left-sidebar, custom-menu, featured-images, rtl-language-support, translation-ready
+License: Envato Split License
+License URI: https://themeforest.net/licenses/standard
+Version: 1.35
+Text domain: transfers
+*/
+#add_payment_method table.cart .product-thumbnail,.woocommerce-cart table.cart .product-thumbnail,.woocommerce-checkout table.cart .product-thumbnail/*{min-width:32px}*/
+#add_payment_method table.cart img,.woocommerce-cart table.cart img,.woocommerce-checkout table.cart img{width:250px;box-shadow:none}
+.woocommerce a.remove{display:block;font-size:3em;height:1em;width:1em;text-align:center;line-height:1;border-radius:100%;color:red!important;text-decoration:none;font-weight:700;border:0}
+.hentry.textongrey {margin-top:60px;}
+
+.summary dt {
+     width: 40% !important;
+}
+.summary dd {
+    width: 60% !important;
+}
