@@ -1,0 +1,28 @@
+# Translation of Plugins - Hide Admin Notices - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Hide Admin Notices - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-01 16:03:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Hide Admin Notices - Stable (latest release)\n"
+
+#. Description of the plugin
+msgid "Hide – or show – WordPress Dashboard Notices, Messages, Update Nags etc. ... for everything!"
+msgstr "Oculta – o muestra – avisos de escritorio, mensajes, recordatorios de actualizar, etc. de WordPress … ¡del todo!"
+
+#: includes/class-hide-admin-notices-admin.php:96
+msgid "Hide Notices"
+msgstr "Ocultar avisos"
+
+#: includes/class-hide-admin-notices-admin.php:94
+msgid "Show Notices"
+msgstr "Mostrar avisos"
+
+#. Plugin Name of the plugin
+msgid "Hide Admin Notices"
+msgstr "Hide Admin Notices"

@@ -1,0 +1,132 @@
+# Translation of Plugins - WP Rollback - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - WP Rollback - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-18 00:37:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - WP Rollback - Stable (latest release)\n"
+
+#: wp-rollback.php:497
+msgid "It appears there are no version to select. This is likely due to the %s author not using tags for their versions and only committing new releases to the repository trunk."
+msgstr "Es scheint, dass keine Version zur Auswahl steht. Dies liegt wahrscheinlich daran, dass der Autor von %s keine Tags für seine Versionen verwendet und nur neue Veröffentlichungen in den Repository-Trunk schreibt."
+
+#. Author of the plugin
+msgid "Impress.org"
+msgstr "Impress.org"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://impress.org/"
+msgstr "https://impress.org/"
+
+#: wp-rollback.php:524
+msgid "View Changelog"
+msgstr "Änderungsprotokoll anzeigen"
+
+#: wp-rollback.php:299
+msgid "Sorry, we couldn't find a changelog entry found for this version. Try checking the <a href=\"%s\" target=\"_blank\">developer log</a> on WP.org."
+msgstr "Wir konnten für diese Version leider keinen Eintrag im Änderungsprotokoll finden. Versuche im <a href=\"%s\" target=\"_blank\">Entwicklungs-Protokoll</a> auf WP.org etwas zu finden."
+
+#: includes/rollback-menu.php:47
+msgid "Oh no! We're missing required rollback query strings. Please contact support so we can check this bug out and squash it!"
+msgstr "Oh nein! Uns fehlen die erforderlichen Rollback-Abfrage-Zeichenfolgen. Bitte wende dich an den Support, damit wir diesen Fehler überprüfen und beheben können!"
+
+#. Description of the plugin
+msgid "Rollback (or forward) any WordPress.org plugin or theme like a boss."
+msgstr "Rolle die Version eines beliebigen WordPress.org-Plugins oder -Themes zurück (oder vorwärts)."
+
+#: wp-rollback.php:828
+msgid "(WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.)"
+msgstr "(WordPress konnte keine sichere Verbindung zu WordPress.org herstellen. Bitte wende dich an deinen Server-Administrator.)"
+
+#: wp-rollback.php:828
+msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"https://wordpress.org/support/\">support forums</a>."
+msgstr "Ein unerwarteter Fehler ist aufgetreten. Möglicherweise stimmt etwas mit WordPress.org oder dieser Serverkonfiguration nicht. Wenn du weiterhin Probleme hast, besuche bitte die <a href=\"https://wordpress.org/support/\">Support-Foren</a>."
+
+#: wp-rollback.php:517
+msgid "Installed Version"
+msgstr "Installierte Version"
+
+#: wp-rollback.php:346
+msgid "You do not have sufficient permissions to perform rollbacks for this site."
+msgstr "Du hast nicht die erforderlichen Rechte, um für diese Website ein Rollback durchzuführen."
+
+#: wp-rollback.php:300
+msgid "Please select a version number to perform a rollback."
+msgstr "Bitte wähle eine Versionsnummer, um ein Rollback durchzuführen."
+
+#: wp-rollback.php:268
+msgid "Loading..."
+msgstr "Wird geladen..."
+
+#: wp-rollback.php:267
+msgid "No Rollback Available: This is a non-WordPress.org theme."
+msgstr "Es ist kein Rollback verfügbar: Dies ist kein WordPress.org-Theme."
+
+#: wp-rollback.php:148 wp-rollback.php:160
+msgid "Cheatin&#8217; huh?"
+msgstr "Du schummelst, hm?"
+
+#: includes/rollback-menu.php:130
+msgid "<strong>Notice:</strong> We strongly recommend you <strong>create a complete backup</strong> of your WordPress files and database prior to performing a rollback. We are not responsible for any misuse, deletions, white screens, fatal errors, or any other issue resulting from the use of this plugin."
+msgstr "<strong>Hinweis:</strong> Wir empfehlen dir dringend, vor der Durchführung eines Rollbacks <strong>ein vollständiges Backup</strong> deiner WordPress-Dateien und -Datenbank zu erstellen. Wir sind nicht verantwortlich für Fehlanwendungen, Löschungen, weiße Bildschirme, fatale Fehler oder andere Probleme, die sich aus der Verwendung dieses Plugins ergeben."
+
+#: includes/rollback-menu.php:120
+msgid "New Version:"
+msgstr "Neue Version:"
+
+#: includes/rollback-menu.php:114
+msgid "Installed Version:"
+msgstr "Installierte Version:"
+
+#: includes/rollback-menu.php:105
+msgid "Theme Name:"
+msgstr "Theme-Name:"
+
+#: includes/rollback-menu.php:103
+msgid "Plugin Name:"
+msgstr "Plugin-Name:"
+
+#: includes/rollback-menu.php:92
+msgid "Are you sure you want to perform the following rollback?"
+msgstr "Bist du sicher, dass du das folgende Rollback durchführen möchtest?"
+
+#: includes/rollback-menu.php:73 includes/rollback-menu.php:135
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: wp-rollback.php:266 wp-rollback.php:582 wp-rollback.php:657
+#: wp-rollback.php:712 includes/rollback-menu.php:72
+#: includes/rollback-menu.php:134
+msgid "Rollback"
+msgstr "Rollback"
+
+#: includes/rollback-menu.php:26
+msgid "plugin"
+msgstr "Plugin"
+
+#: includes/rollback-menu.php:26
+msgid "theme"
+msgstr "Theme"
+
+#: includes/rollback-menu.php:26
+msgid "Please select which %1$s version you would like to rollback to from the releases listed below. You currently have version %2$s installed of %3$s."
+msgstr "Bitte wähle aus den unten aufgeführten Veröffentlichungen aus, auf welche %1$s-Version du zurücksetzen möchtest. Du hast derzeit die Version %2$s von %3$s installiert."
+
+#. Plugin Name of the plugin
+#: includes/rollback-menu.php:23
+msgid "WP Rollback"
+msgstr "WP Rollback"
+
+#: includes/rollback-menu.php:10
+msgid "WP Rollback is missing necessary parameters to continue. Please contact support."
+msgstr "WP Rollback fehlen notwendige Parameter, um fortzufahren. Bitte kontaktiere den Support."
+
+#: includes/rollback-action.php:50
+msgid "This rollback request is missing a proper query string. Please contact support."
+msgstr "Für dieses Rollback fehlt eine passende Abfrage-Zeichenfolge. Bitte kontaktiere den Support."

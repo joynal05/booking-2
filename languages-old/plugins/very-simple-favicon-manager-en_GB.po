@@ -1,0 +1,91 @@
+# Translation of Plugins - Very Simple Favicon Manager - Development (trunk) in English (UK)
+# This file is distributed under the same license as the Plugins - Very Simple Favicon Manager - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-18 01:24:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Very Simple Favicon Manager - Development (trunk)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.guido.site"
+msgstr "http://www.guido.site"
+
+#. Author of the plugin/theme
+msgid "Guido"
+msgstr "Guido"
+
+#: vsfm.php:114
+msgid "click here"
+msgstr "click here"
+
+#. Description of the plugin/theme
+msgid "This is a very simple plugin to set a favicon and a home screen icon for your website. For more info please check readme file."
+msgstr "This is a very simple plugin to set a favicon and a home screen icon for your website. For more info please check readme file."
+
+#: vsfm.php:113
+msgid "Android device often uses the iOS home screen icon."
+msgstr "Android device often uses the iOS home screen icon."
+
+#: vsfm.php:59
+msgid "Background for Windows home screen icon"
+msgstr "Background for Windows home screen icon"
+
+#: vsfm.php:55
+msgid "Home screen icon for Windows (144x144px)"
+msgstr "Home screen icon for Windows (144x144px)"
+
+#: vsfm.php:52 vsfm.php:56
+msgid "Icon"
+msgstr "Icon"
+
+#: vsfm.php:51
+msgid "Home screen icon for iOS (180x180px)"
+msgstr "Home screen icon for iOS (180x180px)"
+
+#: vsfm.php:60
+msgid "Color"
+msgstr "Colour"
+
+#: vsfm.php:78
+msgid "This color will be used as background for the home screen icon."
+msgstr "This colour will be used as background for the home screen icon."
+
+#: vsfm.php:34
+msgid "Settings"
+msgstr "Settings"
+
+#: vsfm.php:48
+msgid "Favicon"
+msgstr "Favicon"
+
+#: vsfm.php:114
+msgid "More info"
+msgstr "More info"
+
+#: vsfm.php:41
+msgid "Favicon Manager"
+msgstr "Favicon Manager"
+
+#: vsfm.php:47
+msgid "Favicon (16x16px or multi-size)"
+msgstr "Favicon (16x16px or multi-size)"
+
+#: vsfm.php:66
+msgid "Upload your favicon (.ico file) in the media library and copy-paste link here."
+msgstr "Upload your favicon (.ico file) in the media library and copy-paste link here."
+
+#. #-#-#-#-#  very-simple-favicon-manager-code.pot (Very Simple Favicon Manager
+#. 4.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: vsfm.php:107
+msgid "Very Simple Favicon Manager"
+msgstr "Very Simple Favicon Manager"
+
+#: vsfm.php:70 vsfm.php:74
+msgid "Upload your home screen icon (.png file) in the media library and copy-paste link here."
+msgstr "Upload your home screen icon (.png file) in the media library and copy-paste link here."
