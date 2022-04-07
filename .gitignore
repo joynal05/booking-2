@@ -1,4 +1,3 @@
-languages/
 languages-old/
 
 plugins/akismet/
@@ -69,5 +68,4 @@ wp-rocket-config-old/
 wpvivid_staging/
 WPvivid_Uploads/
 wpvividbackups/
-index.php
 index.php-old
