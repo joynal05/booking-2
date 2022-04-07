@@ -1,0 +1,1443 @@
+# Translation of Plugins - WooCommerce Redsys Gateway Light - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WooCommerce Redsys Gateway Light - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-25 21:35:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WooCommerce Redsys Gateway Light - Stable (latest release)\n"
+
+#: classes/class-wc-gateway-bizum-redsys.php:198
+msgid "Maximum transaction price for the cart."
+msgstr "Máximo precio de transacción en el carrito"
+
+#: classes/class-wc-gateway-bizum-redsys.php:196
+msgid "Transaction Limit"
+msgstr "Límite de transacción"
+
+#: classes/class-wc-gateway-bizum-redsys.php:1332
+msgid "Warning: WooCommerce Redsys Gateway Bizum is in test mode. Remember to uncheck it when you go live"
+msgstr "Advertencia: WooCommerce Redsys Gateway Bizum está en modo de pruebas. Recuerda desmarcarlo cuando pases a producción"
+
+#: classes/class-wc-gateway-bizum-redsys.php:1254
+msgid "check_redsys_refund Asking for order #: "
+msgstr "check_redsys_refund pidiendo para el pedido #: "
+
+#: classes/class-wc-gateway-bizum-redsys.php:1244
+msgid "$order_id#: "
+msgstr "$order_id#: "
+
+#: classes/class-wc-gateway-bizum-redsys.php:1105
+msgid "The SHA256 settings is: "
+msgstr "Los ajustes de SHA256 son: "
+
+#: classes/class-wc-gateway-bizum-redsys.php:1104
+msgid "Using settings for SHA256"
+msgstr "Ajustes de uso para SHA256"
+
+#: classes/class-wc-gateway-bizum-redsys.php:1099
+msgid "The SHA256 Meta is: "
+msgstr "El meta SHA256 es: "
+
+#: classes/class-wc-gateway-bizum-redsys.php:1098
+msgid "Using meta for SHA256"
+msgstr "Uso de meta para SHA256"
+
+#: classes/class-wc-gateway-bizum-redsys.php:1065
+#: classes/class-wc-gateway-bizum-redsys.php:1066
+msgid "Order cancelled by Redsys Bizum"
+msgstr "Pedido cancelado por Redsys Bizum"
+
+#: classes/class-wc-gateway-bizum-redsys.php:1041
+#: classes/class-wc-gateway-bizum-redsys.php:1046
+msgid "Order cancelled by Redsys: "
+msgstr "Pedido cancelado por Redsys: "
+
+#: classes/class-wc-gateway-bizum-redsys.php:1023
+msgid "Order Completed by Bizum"
+msgstr "Pedido completado por Bizum"
+
+#: classes/class-wc-gateway-bizum-redsys.php:610
+msgid "Pay with Bizum"
+msgstr "Pagar con Bizum"
+
+#: classes/class-wc-gateway-bizum-redsys.php:240
+msgid "Log Bizum events, such as notifications requests, inside <code>WooCommerce > Status > Logs > bizum-{date}-{number}.log</code>"
+msgstr "Registra los eventos de Bizum, como los avisos de peticiones, dentro de <code>WooCommerce > Estado > Registros > bizum-{date}-{number}.log</code>"
+
+#: classes/class-wc-gateway-bizum-redsys.php:175
+msgid "Pay via Bizum you can pay with your Bizum account."
+msgstr "Pagando mediante Bizum puedes pagar con tu cuenta Bizum."
+
+#: classes/class-wc-gateway-bizum-redsys.php:161
+msgid "Enable Bizum"
+msgstr "Activar Bizum"
+
+#: classes/class-wc-gateway-bizum-redsys.php:125
+msgid "Servired/RedSys only support "
+msgstr "Compatible solo con Servired/RedSys"
+
+#: classes/class-wc-gateway-bizum-redsys.php:100
+msgid "Bizum works by sending the user to Bizum Gateway"
+msgstr "Bizum funciona enviando al usuario a la pasarela Bizum"
+
+#: classes/class-wc-gateway-bizum-redsys.php:99
+#: classes/class-wc-gateway-bizum-redsys.php:168
+msgid "Bizum"
+msgstr "Bizum"
+
+#: classes/class-wc-gateway-bizum-redsys.php:35
+msgid "Bizum Lite  works redirecting customers to Bizum."
+msgstr "Bizum Lite funciona redirigiendo a los clientes a Bizum."
+
+#: classes/class-wc-gateway-bizum-redsys.php:34
+msgid "Bizum Lite (by José Conti)"
+msgstr "Bizum Lite (por José Conti)"
+
+#: includes/data/dserrors.php:185
+msgid "Se ha pedido no mostrar pantalla pero no se ha enviado ninguna referencia de tarjeta"
+msgstr "Se ha pedido no mostrar pantalla, pero no se ha enviado ninguna referencia de tarjeta"
+
+#: includes/data/dserrors.php:184
+msgid "Error de formato en Ds_Merchant_Group"
+msgstr "Error de formato en Ds_Merchant_Group"
+
+#: includes/data/dserrors.php:183
+msgid "La referencia indicada en Ds_Merchant_Identifier no está asociada al comercio"
+msgstr "La referencia indicada en Ds_Merchant_Identifier no está asociada al comercio"
+
+#: includes/data/dserrors.php:182
+msgid "El comercio no pertenece al grupo especificado en Ds_Merchant_Group"
+msgstr "El comercio no pertenece al grupo especificado en Ds_Merchant_Group"
+
+#: includes/data/dserrors.php:181
+msgid "El comercio no permite realizar operaciones de Trajetas de Archivo"
+msgstr "El comercio no permite realizar operaciones de Tarjetas de Archivo"
+
+#: includes/data/dserrors.php:180
+msgid "Error, el comercio no tiene el método de pago Pago Manual"
+msgstr "Error, el comercio no tiene el método de pago Pago Manual"
+
+#: includes/data/dserrors.php:179
+msgid "Error, el comercio no tiene el método de pago Paygold"
+msgstr "Error, el comercio no tiene el método de pago Paygold"
+
+#: includes/data/dserrors.php:178
+msgid "Error, no se ha superado el proceso de control de fraude."
+msgstr "Error, no se ha superado el proceso de control de fraude."
+
+#: includes/data/dserrors.php:177
+msgid "Método de pago no seguro no disponible"
+msgstr "Método de pago no seguro no disponible"
+
+#: includes/data/dserrors.php:176
+msgid "Método de pago no seguro no disponible (MasterCard Comercial)"
+msgstr "Método de pago no seguro no disponible (MasterCard Comercial)"
+
+#: includes/data/dserrors.php:173 includes/data/dserrors.php:174
+msgid "Método de pago no seguro (Amex) no disponible"
+msgstr "Método de pago no seguro (Amex) no disponible"
+
+#: includes/data/dserrors.php:172
+msgid "Método de pago no seguro (JCB) no disponible"
+msgstr "Método de pago no seguro (JCB) no disponible"
+
+#: includes/data/dserrors.php:170 includes/data/dserrors.php:171
+msgid "Método de pago no seguro (MasterCard) no disponible"
+msgstr "Método de pago no seguro (MasterCard) no disponible"
+
+#: includes/data/dserrors.php:169
+msgid "Método de pago no seguro (Visa) no disponible"
+msgstr "Método de pago no seguro (Visa) no disponible"
+
+#: includes/data/dserrors.php:167
+msgid "Error, la tarjeta de la operación es AMEX y el comercio no tiene el método de pago \"Pago Amex\""
+msgstr "Error, la tarjeta de la operación es AMEX y el comercio no tiene el método de pago «Pago Amex»"
+
+#: includes/data/dserrors.php:166
+msgid "Error, la tarjeta de la operación es JCB y el comercio no tiene el método de pago \"Pago JCB\""
+msgstr "Error, la tarjeta de la operación es JCB y el comercio no tiene el método de pago «Pago JCB»"
+
+#: includes/data/dserrors.php:165
+msgid "Método de pago no disponible (Tarjeta 4B)"
+msgstr "Método de pago no disponible (Tarjeta 4B)"
+
+#: includes/data/dserrors.php:164
+msgid "Error, el tipo de pago de la operación Ds_TransactionType (A) no está permitido para el comercio para tarjetas Amex."
+msgstr "Error: el tipo de pago de la operación Ds_TransactionType (A) no está permitido para el comercio para tarjetas Amex."
+
+#: includes/data/dserrors.php:163
+msgid "Error, el tipo de pago de la operación Ds_TransactionType (A) no está permitido para el comercio."
+msgstr "Error: el tipo de pago de la operación Ds_TransactionType (A) no está permitido para el comercio."
+
+#: includes/data/dserrors.php:162
+msgid "Error, la tarjeta de la operación es DINERS y el comercio no tiene el método de pago \"Pago DINERS\""
+msgstr "Error: la tarjeta de la operación es DINERS y el comercio no tiene el método de pago «Pago DINERS»"
+
+#: includes/data/dserrors.php:161
+msgid "Error producido al acceder mediante un sistema de firma antiguo teniendo configurado el tipo de clave HMAC SHA256"
+msgstr "Error producido al acceder mediante un sistema de firma antiguo teniendo configurado el tipo de clave HMAC SHA256"
+
+#: includes/data/dserrors.php:160
+msgid "Error en el cálculo de la firma"
+msgstr "Error en el cálculo de la firma"
+
+#: includes/data/dserrors.php:159
+msgid "Error ausencia de número de pedido en la operación enviada por el comercio"
+msgstr "Error: ausencia de número de pedido en la operación enviada por el comercio"
+
+#: includes/data/dserrors.php:158
+msgid "Error Terminal del comercio erróneo"
+msgstr "Error: Terminal del comercio erróneo"
+
+#: includes/data/dserrors.php:157
+msgid "Error FUC del comercio erróneo"
+msgstr "Error: FUC del comercio erróneo"
+
+#: includes/data/dserrors.php:156
+msgid "Error del objeto JSON que se envía codificado en el parámetro Ds_MerchantParameters"
+msgstr "Error del objeto JSON que se envía codificado en el parámetro Ds_MerchantParameters"
+
+#: includes/data/dserrors.php:155
+msgid "Error al decodificar el parámetro Ds_MerchantParameters"
+msgstr "Error al decodificar el parámetro Ds_MerchantParameters"
+
+#: includes/data/dserrors.php:154
+msgid "Error en la versión enviada por el comercio en el parámetro Ds_SignatureVersion"
+msgstr "Error en la versión enviada por el comercio en el parámetro Ds_SignatureVersion"
+
+#: includes/data/dserrors.php:153
+msgid "Tipo de operación desconocida o no permitida por esta entrada al SIS"
+msgstr "Tipo de operación desconocida o no permitida por esta entrada al SIS"
+
+#: includes/data/dserrors.php:152
+msgid "El comercio no puede realizar autorizaciones en diferido"
+msgstr "El comercio no puede realizar autorizaciones en diferido"
+
+#: includes/data/dserrors.php:151
+msgid "Operación detenida por superar el control de restricciones en la entrada al SIS"
+msgstr "Operación detenida por superar el control de restricciones en la entrada al SIS"
+
+#: includes/data/dserrors.php:149
+msgid "Esta tarjeta no permite operativa de preautorizaciones"
+msgstr "Esta tarjeta no permite operativa de preautorizaciones"
+
+#: includes/data/dserrors.php:148
+msgid "El comercio no puede realizar preautorizaciones"
+msgstr "El comercio no puede realizar preautorizaciones"
+
+#: includes/data/dserrors.php:147
+msgid "El importe acumulado por la IP supera el límite permitido por el comercio"
+msgstr "El importe acumulado por la IP supera el límite permitido por el comercio"
+
+#: includes/data/dserrors.php:146
+msgid "El número de operaciones de la IP supera el límite permitido por el comercio"
+msgstr "El número de operaciones de la IP supera el límite permitido por el comercio"
+
+#: includes/data/dserrors.php:145
+msgid "La tarjeta no cumple el check-digit"
+msgstr "La tarjeta no cumple el check-digit"
+
+#: includes/data/dserrors.php:144
+msgid "El comercio no permite el envío de tarjeta"
+msgstr "El comercio no permite el envío de tarjeta"
+
+#: includes/data/dserrors.php:143
+msgid "No se pueden realizar devoluciones de operaciones de domiciliacion no descargadas "
+msgstr "No se pueden realizar devoluciones de operaciones de domiciliación no descargadas "
+
+#: includes/data/dserrors.php:142
+msgid "La operación no se puede procesar por este canal"
+msgstr "La operación no se puede procesar por este canal"
+
+#: includes/data/dserrors.php:141
+msgid "La operación no se puede procesar por no existir Codigo Cuenta Cliente"
+msgstr "La operación no se puede procesar por no existir Código Cuenta Cliente"
+
+#: includes/data/dserrors.php:140
+msgid "No se pueden recuperar los datos de la operación recibida desde Linea Abierta Caixa"
+msgstr "No se pueden recuperar los datos de la operación recibida desde Línea Abierta Caixa"
+
+#: includes/data/dserrors.php:139
+msgid "Error de firma en los datos recibidos desde Linea Abierta Caixa"
+msgstr "Error de firma en los datos recibidos desde Línea Abierta Caixa"
+
+#: includes/data/dserrors.php:138
+msgid "Error procesando datos de respuesta recibidos desde Linea Abierta Caixa"
+msgstr "Error procesando datos de respuesta recibidos desde Línea Abierta Caixa"
+
+#: includes/data/dserrors.php:137
+msgid "Error calculando datos para procesar operación en Linea Abierta Caixa"
+msgstr "Error calculando datos para procesar operación en Línea Abierta Caixa"
+
+#: includes/data/dserrors.php:136
+msgid "Moneda no permitida para operación de transferencia o domiciliacion"
+msgstr "Moneda no permitida para operación de transferencia o domiciliación"
+
+#: includes/data/dserrors.php:135
+msgid "El comercio no permite pago por transferencia"
+msgstr "El comercio no permite pago por transferencia"
+
+#: includes/data/dserrors.php:134
+msgid "Error al tomar los datos del XML para realizar Pago por Transferencia"
+msgstr "Error al tomar los datos del XML para realizar Pago por Transferencia"
+
+#: includes/data/dserrors.php:133
+msgid "Error al realizar pago por domiciliacion"
+msgstr "Error al realizar pago por domiciliación"
+
+#: includes/data/dserrors.php:132
+msgid "El comercio no permite pago por domiciliación"
+msgstr "El comercio no permite pago por domiciliación"
+
+#: includes/data/dserrors.php:131
+msgid "Dígito de Control de Cuenta Cliente no válido"
+msgstr "Dígito de Control de Cuenta Cliente no válido"
+
+#: includes/data/dserrors.php:130
+msgid "Error. El campo Sis_Numero_Cuenta no es numérico"
+msgstr "Error. El campo Sis_Numero_Cuenta no es numérico"
+
+#: includes/data/dserrors.php:129
+msgid "Error. El campo Sis_Numero_Cuenta no tiene la longitud requerida"
+msgstr "Error. El campo Sis_Numero_Cuenta no tiene la longitud requerida"
+
+#: includes/data/dserrors.php:128
+msgid "Error. Campo Sis_Numero_Cuenta no disponible"
+msgstr "Error. Campo Sis_Numero_Cuenta no disponible"
+
+#: includes/data/dserrors.php:127
+msgid "Error. El campo Sis_Numero_DC no es numérico"
+msgstr "Error. El campo Sis_Numero_DC no es numérico"
+
+#: includes/data/dserrors.php:126
+msgid "Error. El campo Sis_Numero_DC no tiene la longitud requerida"
+msgstr "Error. El campo Sis_Numero_DC no tiene la longitud requerida"
+
+#: includes/data/dserrors.php:125
+msgid "Error. Campo Sis_Numero_DC no disponible"
+msgstr "Error. Campo Sis_Numero_DC no disponible"
+
+#: includes/data/dserrors.php:124
+msgid "Error. El campo Sis_Numero_Oficina no es numérico"
+msgstr "Error. El campo Sis_Numero_Oficina no es numérico"
+
+#: includes/data/dserrors.php:123
+msgid "Error. El campo Sis_Numero_Oficina no tiene la longitud requerida"
+msgstr "Error. El campo Sis_Numero_Oficina no tiene la longitud requerida"
+
+#: includes/data/dserrors.php:122
+msgid "Error. Campo Sis_Numero_Oficina no disponible"
+msgstr "Error. Campo Sis_Numero_Oficina no disponible"
+
+#: includes/data/dserrors.php:121
+msgid "Error. El campo Sis_Numero_Entidad no es numérico"
+msgstr "Error. El campo Sis_Numero_Entidad no es numérico"
+
+#: includes/data/dserrors.php:120
+msgid "Error. El campo Sis_Numero_Entidad no tiene la longitud requerida"
+msgstr "Error. El campo Sis_Numero_Entidad no tiene la longitud requerida"
+
+#: includes/data/dserrors.php:119
+msgid "Error. Campo Sis_Numero_Entidad no disponible"
+msgstr "Error. Campo Sis_Numero_Entidad no disponible"
+
+#: includes/data/dserrors.php:118
+msgid "Error. Nombre del titular de la cuenta no disponible"
+msgstr "Error. Nombre del titular de la cuenta no disponible"
+
+#: includes/data/dserrors.php:117
+msgid "Error. Forma de pago enviada en Ds_Merchant_Paymethods desconocida"
+msgstr "Error. Forma de pago enviada en Ds_Merchant_Paymethods desconocida"
+
+#: includes/data/dserrors.php:116
+msgid "Error. Forma de pago enviada en Ds_Merchant_Paymethods no disponible"
+msgstr "Error. Forma de pago enviada en Ds_Merchant_Paymethods no disponible"
+
+#: includes/data/dserrors.php:115
+msgid "No hay forma de pago aplicable para el cliente"
+msgstr "No hay forma de pago aplicable para el cliente"
+
+#: includes/data/dserrors.php:114
+msgid "No existe el código de pago aplazado solicitado"
+msgstr "No existe el código de pago aplazado solicitado"
+
+#: includes/data/dserrors.php:113
+msgid "Valor del campo Ds_Merchant_TransactionDate no válido"
+msgstr "Valor del campo Ds_Merchant_TransactionDate no válido"
+
+#: includes/data/dserrors.php:112
+msgid "Inconsistencia de datos, en la validación de una anulación"
+msgstr "Inconsistencia de datos en la validación de una anulación"
+
+#: includes/data/dserrors.php:111
+msgid "Error no existe operación sobre la que realizar la anulación"
+msgstr "Error: no existe operación sobre la que realizar la anulación"
+
+#: includes/data/dserrors.php:110
+msgid "El comercio no permite anulaciones por no tener firma ampliada"
+msgstr "El comercio no permite anulaciones por no tener firma ampliada"
+
+#: includes/data/dserrors.php:109
+msgid "La preautorización que se desea anular no está autorizada"
+msgstr "La preautorización que se desea anular no está autorizada"
+
+#: includes/data/dserrors.php:108
+msgid "Ya existe una anulación asociada a la preautorización"
+msgstr "Ya existe una anulación asociada a la preautorización"
+
+#: includes/data/dserrors.php:107
+msgid "Error el CVV2 es obligatorio"
+msgstr "Error: el CVV2 es obligatorio"
+
+#: includes/data/dserrors.php:106
+msgid "Error el importe acumulado de la tarjeta supera el límite permitido para el comercio"
+msgstr "Error: el importe acumulado de la tarjeta supera el límite permitido para el comercio"
+
+#: includes/data/dserrors.php:105
+msgid "Error el número de operaciones de la tarjeta supera el límite permitido para el comercio"
+msgstr "Error: el número de operaciones de la tarjeta supera el límite permitido para el comercio"
+
+#: includes/data/dserrors.php:104
+msgid "El comercio no permite operaciones seguras por la entrada/operaciones"
+msgstr "El comercio no permite operaciones seguras por la entrada/operaciones"
+
+#: includes/data/dserrors.php:103
+msgid "Error de formato en Ds_Merchant_CVV2"
+msgstr "Error de formato en Ds_Merchant_CVV2"
+
+#: includes/data/dserrors.php:102
+msgid "Error Ds_Merchant_CVV2 tiene más de 3 posiciones"
+msgstr "Error: Ds_Merchant_CVV2 tiene más de 3 posiciones"
+
+#: includes/data/dserrors.php:101
+msgid "El comercio no admite devoluciones"
+msgstr "El comercio no admite devoluciones"
+
+#: includes/data/dserrors.php:100
+msgid "Error el importe acumulado supera el límite permitido para el comercio"
+msgstr "Error: el importe acumulado supera el límite permitido para el comercio"
+
+#: includes/data/dserrors.php:99
+msgid "Error el número de operaciones supera el límite permitido para el comercio"
+msgstr "Error: el número de operaciones supera el límite permitido para el comercio"
+
+#: includes/data/dserrors.php:98
+msgid "Error el importe supera el límite permitido para el comercio"
+msgstr "Error: el importe supera el límite permitido para el comercio"
+
+#: includes/data/dserrors.php:97
+msgid "Error al obtener los datos de cesta de la compra en operación tipo pasarela"
+msgstr "Error al obtener los datos de cesta de la compra en operación tipo pasarela"
+
+#: includes/data/dserrors.php:96
+msgid "Tiempo excedido para el pago"
+msgstr "Tiempo excedido para el pago"
+
+#: includes/data/dserrors.php:95
+msgid "Error el pago recurrente inicial está duplicado"
+msgstr "Error: el pago recurrente inicial está duplicado"
+
+#: includes/data/dserrors.php:94
+msgid "La fecha de Confirmación de Autenticación no puede superar en más de 45 días a la de Autenticación Previa."
+msgstr "La fecha de Confirmación de Autenticación no puede superar en más de 45 días a la de Autenticación Previa."
+
+#: includes/data/dserrors.php:93
+msgid "La fecha de Confirmación de Autorización no puede superar en más de 7 días a la de Preautorización."
+msgstr "La fecha de Confirmación de Autorización no puede superar en más de 7 días a la de Preautorización."
+
+#: includes/data/dserrors.php:92
+msgid "No ha transcurrido la frecuencia mínima en un pago recurrente sucesivo"
+msgstr "No ha transcurrido la frecuencia mínima en un pago recurrente sucesivo"
+
+#: includes/data/dserrors.php:91
+msgid "Se ha excedido la fecha tope para realizar transacciones"
+msgstr "Se ha excedido la fecha tope para realizar transacciones"
+
+#: includes/data/dserrors.php:90
+msgid "Valor del campo Ds_Merchant_DateFrecuency o no Ds_Merchant_SumTotal tiene formato incorrecto"
+msgstr "El valor del campo Ds_Merchant_DateFrecuency o no Ds_Merchant_SumTotal tiene formato incorrecto"
+
+#: includes/data/dserrors.php:89
+msgid "Valor del campo Ds_Merchant_SumTotal no válido"
+msgstr "Valor del campo Ds_Merchant_SumTotal no válido"
+
+#: includes/data/dserrors.php:88
+msgid "Valor del campo Ds_Merchant_ChargeExpiryDate no válido"
+msgstr "Valor del campo Ds_Merchant_ChargeExpiryDate no válido"
+
+#: includes/data/dserrors.php:87
+msgid "Valor del campo Ds_Merchant_DateFrecuency no válido"
+msgstr "Valor del campo Ds_Merchant_DateFrecuency no válido"
+
+#: includes/data/dserrors.php:86
+msgid "Se ha excedido el importe total de las cuotas"
+msgstr "Se ha excedido el importe total de las cuotas"
+
+#: includes/data/dserrors.php:85
+msgid "La operación sobre la que se desea pagar una cuota no está autorizada"
+msgstr "La operación sobre la que se desea pagar una cuota no está autorizada"
+
+#: includes/data/dserrors.php:84
+msgid "La operación sobre la que se desea pagar una cuota no es una operación válida"
+msgstr "La operación sobre la que se desea pagar una cuota no es una operación válida"
+
+#: includes/data/dserrors.php:83
+msgid "Error no existe operación sobre la que realizar el pago de la cuota"
+msgstr "Error: no existe operación sobre la que realizar el pago de la cuota"
+
+#: includes/data/dserrors.php:82
+msgid "Error, se ha llamado con un GET en lugar de un POST"
+msgstr "Error: se ha llamado con un GET en lugar de un POST"
+
+#: includes/data/dserrors.php:81
+msgid "Excepción producida en el servlet de operaciones"
+msgstr "Excepción producida en el servlet de operaciones"
+
+#: includes/data/dserrors.php:80
+msgid "Error El tipo de transacción especificado en Ds_Merchant_Transaction_Type no esta permitido"
+msgstr "Error: El tipo de transacción especificado en Ds_Merchant_Transaction_Type no está permitido"
+
+#: includes/data/dserrors.php:79
+msgid "Valor del campo Ds_Merchant_CVentana no válido"
+msgstr "Valor del campo Ds_Merchant_CVentana no válido"
+
+#: includes/data/dserrors.php:78
+msgid "Valor del campo Ds_Merchant_CComercio no válido"
+msgstr "Valor del campo Ds_Merchant_CComercio no válido"
+
+#: includes/data/dserrors.php:77
+msgid "La tarjeta no fue autenticada como 3D Secure"
+msgstr "La tarjeta no fue autenticada como 3D Secure"
+
+#: includes/data/dserrors.php:76
+msgid "Tarjeta no encontrada en la tabla de rangos"
+msgstr "Tarjeta no encontrada en la tabla de rangos"
+
+#: includes/data/dserrors.php:75
+msgid "El valor de Ds_Merchant_ExpiryDate es nulo"
+msgstr "El valor de Ds_Merchant_ExpiryDate es nulo"
+
+#: includes/data/dserrors.php:74
+msgid "El valor de Ds_Merchant_ExpiryDate no ocupa 4 posiciones"
+msgstr "El valor de Ds_Merchant_ExpiryDate no ocupa 4 posiciones"
+
+#: includes/data/dserrors.php:73
+msgid "El valor de Ds_Merchant_Conciliation no ocupa 6 posiciones"
+msgstr "El valor de Ds_Merchant_Conciliation no ocupa 6 posiciones"
+
+#: includes/data/dserrors.php:72
+msgid "El valor de Ds_Merchant_Conciliation no es numérico"
+msgstr "El valor de Ds_Merchant_Conciliation no es numérico"
+
+#: includes/data/dserrors.php:71
+msgid "El valor de Ds_Merchant_Conciliation es nulo"
+msgstr "El valor de Ds_Merchant_Conciliation es nulo"
+
+#: includes/data/dserrors.php:70
+msgid "La sesión es nueva, se han perdido los datos almacenados"
+msgstr "La sesión es nueva, se han perdido los datos almacenados"
+
+#: includes/data/dserrors.php:69
+msgid "Error al realizar el pago con tarjeta"
+msgstr "Error al realizar el pago con tarjeta"
+
+#: includes/data/dserrors.php:68 includes/data/dserrors.php:168
+#: includes/data/dserrors.php:175
+msgid "Método de pago no disponible"
+msgstr "Método de pago no disponible"
+
+#: includes/data/dserrors.php:67
+msgid "Error el Ds_Merchant_Order no tiene las cuatro primeras posiciones numéricas. No se utiliza"
+msgstr "Error: el Ds_Merchant_Order no tiene las cuatro primeras posiciones numéricas. No se utiliza"
+
+#: includes/data/dserrors.php:66
+msgid "Error el Ds_Merchant_Order no tiene las cuatro primeras posiciones numéricas"
+msgstr "Error: el Ds_Merchant_Order no tiene las cuatro primeras posiciones numéricas"
+
+#: includes/data/dserrors.php:65
+msgid "Error el Ds_Merchant_Order tiene menos de 4 posiciones o más de 12"
+msgstr "Error: el Ds_Merchant_Order tiene menos de 4 posiciones o más de 12"
+
+#: includes/data/dserrors.php:64
+msgid "Error falta Ds_Merchant_Order"
+msgstr "Error: falta Ds_Merchant_Order"
+
+#: includes/data/dserrors.php:63
+msgid "Operación no anulable"
+msgstr "Operación no anulable"
+
+#: includes/data/dserrors.php:62
+msgid "Tarjeta caducada"
+msgstr "Tarjeta caducada"
+
+#: includes/data/dserrors.php:61
+msgid "Error. El Año de la caducidad no es numérico"
+msgstr "Error. El Año de la caducidad no es numérico"
+
+#: includes/data/dserrors.php:60
+msgid "Error. Año de caducidad no disponible"
+msgstr "Error. Año de caducidad no disponible"
+
+#: includes/data/dserrors.php:59
+msgid "Error. El mes de la caducidad no es válido"
+msgstr "Error. El mes de la caducidad no es válido"
+
+#: includes/data/dserrors.php:58
+msgid "Error. El mes de la caducidad no es numérico"
+msgstr "Error. El mes de la caducidad no es numérico"
+
+#: includes/data/dserrors.php:57
+msgid "Error. Mes de caducidad no disponible"
+msgstr "Error. Mes de caducidad no disponible"
+
+#: includes/data/dserrors.php:56
+msgid "Error. El número de tarjeta no es numérico"
+msgstr "Error. El número de tarjeta no es numérico"
+
+#: includes/data/dserrors.php:55
+msgid "Error. El número de tarjeta no puede tener más de 19 posiciones"
+msgstr "Error. El número de tarjeta no puede tener más de 19 posiciones"
+
+#: includes/data/dserrors.php:54
+msgid "Error. Número de tarjeta no disponible"
+msgstr "Error. Número de tarjeta no disponible"
+
+#: includes/data/dserrors.php:53
+msgid "El importe a confirmar supera el permitido"
+msgstr "El importe a confirmar supera el permitido"
+
+#: includes/data/dserrors.php:52
+msgid "La preautorización sobre la que se desea confirmar no está autorizada"
+msgstr "La preautorización sobre la que se desea confirmar no está autorizada"
+
+#: includes/data/dserrors.php:51
+msgid "Ya existe una confirmación asociada a la preautorización"
+msgstr "Ya existe una confirmación asociada a la preautorización"
+
+#: includes/data/dserrors.php:50
+msgid "Error no existe operación sobre la que realizar la confirmación"
+msgstr "Error: no existe operación sobre la que realizar la confirmación"
+
+#: includes/data/dserrors.php:49 includes/data/dserrors.php:150
+msgid "Inconsistencia de datos, en la validación de una confirmación"
+msgstr "Inconsistencia de datos en la validación de una confirmación"
+
+#: includes/data/dserrors.php:48
+msgid "El importe a devolver supera el permitido"
+msgstr "El importe a devolver supera el permitido"
+
+#: includes/data/dserrors.php:47
+msgid "La operación sobre la que se desea devolver no está autorizada"
+msgstr "La operación sobre la que se desea devolver no está autorizada"
+
+#: includes/data/dserrors.php:46
+msgid "Error existe más de un pago con el mismo número de pedido"
+msgstr "Error: existe más de un pago con el mismo número de pedido"
+
+#: includes/data/dserrors.php:45
+msgid "Error no existe operación sobre la que realizar la devolución"
+msgstr "Error: no existe operación sobre la que realizar la devolución"
+
+#: includes/data/dserrors.php:44
+msgid "Error número de pedido repetido"
+msgstr "Error: número de pedido repetido"
+
+#: includes/data/dserrors.php:43
+msgid "El bin de la tarjeta no está dado de alta"
+msgstr "El bin de la tarjeta no está dado de alta"
+
+#: includes/data/dserrors.php:42
+msgid "Error al realizar la notificación on-line"
+msgstr "Error al realizar la notificación on-line"
+
+#: includes/data/dserrors.php:41
+msgid "La firma enviada no es correcta"
+msgstr "La firma enviada no es correcta"
+
+#: includes/data/dserrors.php:40
+msgid "Error en el cálculo de la HASH de datos del comercio."
+msgstr "Error en el cálculo de la HASH de datos del comercio."
+
+#: includes/data/dserrors.php:39
+msgid "Error el comercio / terminal no tiene ningún método de pago asignado"
+msgstr "Error: el comercio / terminal no tiene ningún método de pago asignado"
+
+#: includes/data/dserrors.php:38
+msgid "Error en java"
+msgstr "Error en Java"
+
+#: includes/data/dserrors.php:37
+msgid "El número de teléfono no es válido"
+msgstr "El número de teléfono no es válido"
+
+#: includes/data/dserrors.php:36
+msgid "Error de acceso a la Base de Datos"
+msgstr "Error de acceso a la Base de Datos"
+
+#: includes/data/dserrors.php:35
+msgid "Error en un pago con móvil ha llegado un tipo de operación que no es ni pago ni preautorización"
+msgstr "Error: en un pago con móvil ha llegado un tipo de operación que no es ni pago ni preautorización"
+
+#: includes/data/dserrors.php:34
+msgid "Método de pago no definido"
+msgstr "Método de pago no definido"
+
+#: includes/data/dserrors.php:33
+msgid "Error en un pago con tarjeta ha llegado un tipo de operación que no es ni pago ni preautorización"
+msgstr "Error: en un pago con tarjeta ha llegado un tipo de operación que no es ni pago ni preautorización"
+
+#: includes/data/dserrors.php:32
+msgid "Error Comercio / terminal está dado de baja"
+msgstr "Error: Comercio / terminal está dado de baja"
+
+#: includes/data/dserrors.php:31
+msgid "Error Moneda enviada por el comercio es diferente a la que tiene asignada para ese terminal"
+msgstr "Error: Moneda enviada por el comercio es diferente a la que tiene asignada para ese terminal"
+
+#: includes/data/dserrors.php:30
+msgid "Error No existe el comercio / terminal enviado"
+msgstr "Error: No existe el comercio / terminal enviado"
+
+#: includes/data/dserrors.php:29
+msgid "Error de formato en Ds_Merchant_ConsumerLanguage"
+msgstr "Error de formato en Ds_Merchant_ConsumerLanguage"
+
+#: includes/data/dserrors.php:28
+msgid "Error Ds_Merchant_ConsumerLanguage tiene mas de 3 posiciones"
+msgstr "Error: Ds_Merchant_ConsumerLanguage tiene más de 3 posiciones"
+
+#: includes/data/dserrors.php:27
+msgid "Error Ds_Merchant_TransactionType desconocido"
+msgstr "Error: Ds_Merchant_TransactionType desconocido"
+
+#: includes/data/dserrors.php:26
+msgid "Error de formato en Ds_Merchant_TransactionType"
+msgstr "Error de formato en Ds_Merchant_TransactionType"
+
+#: includes/data/dserrors.php:25
+msgid "Error la Ds_Merchant_MerchantSignature viene vacía"
+msgstr "Error: la Ds_Merchant_MerchantSignature viene vacía"
+
+#: includes/data/dserrors.php:24
+msgid "Error falta Ds_Merchant_MerchantSignature"
+msgstr "Error falta Ds_Merchant_MerchantSignature"
+
+#: includes/data/dserrors.php:23
+msgid "Error de formato en Ds_Merchant_Amount"
+msgstr "Error de formato en Ds_Merchant_Amount"
+
+#: includes/data/dserrors.php:22
+msgid "Error falta Ds_Merchant_Amount"
+msgstr "Error: falta Ds_Merchant_Amount"
+
+#: includes/data/dserrors.php:21
+msgid "Error no se admiten operaciones en pesetas"
+msgstr "Error: no se admiten operaciones en pesetas"
+
+#: includes/data/dserrors.php:20
+msgid "Error de formato en Ds_Merchant_Currency"
+msgstr "Error de formato en Ds_Merchant_Currency"
+
+#: includes/data/dserrors.php:19
+msgid "Error falta Ds_Merchant_Currency"
+msgstr "Error: falta Ds_Merchant_Currency"
+
+#: includes/data/dserrors.php:18
+msgid "Error de formato en Ds_Merchant_Order"
+msgstr "Error de formato en Ds_Merchant_Order"
+
+#: includes/data/dserrors.php:17
+msgid "Error de formato en Ds_Merchant_Terminal"
+msgstr "Error de formato en Ds_Merchant_Terminal"
+
+#: includes/data/dserrors.php:16
+msgid "Error falta Ds_Merchant_Terminal"
+msgstr "Error: falta Ds_Merchant_Terminal"
+
+#: includes/data/dserrors.php:15
+msgid "Error de formato en Ds_Merchant_MerchantCode"
+msgstr "Error de formato en Ds_Merchant_MerchantCode"
+
+#: includes/data/dserrors.php:14
+msgid "Error falta Ds_Merchant_MerchantCode"
+msgstr "Error: falta Ds_Merchant_MerchantCode"
+
+#: includes/data/dserrors.php:13
+msgid "Error al desmontar el XML de entrada"
+msgstr "Error al desmontar el XML de entrada"
+
+#: woocommerce-redsys.php:1758
+msgid "The Redsys Authorization number is: "
+msgstr "El número de autorización de Redsys es: "
+
+#: woocommerce-redsys.php:1604
+msgid "Warning: WooCommerce Redsys Gateway Light is in test mode. Remember to uncheck it when you go live"
+msgstr "Atención: WooCommerce Redsys Gateway Light está utilizando el entorno de pruebas. Acuérdate de pasarlo al entorno real antes de hacer pública tu tienda."
+
+#: woocommerce-redsys.php:428
+msgid "Log Servired/RedSys events, such as notifications requests, inside <code><code>WooCommerce > Status > Logs > redsys-{date}-{number}.log</code></code>"
+msgstr "Registra los eventos de Servired/RedSys, como los avisos de peticiones, dentro de <code>WooCommerce > Estado > Registros > redsys-{date}-{number}.log</code>"
+
+#: woocommerce-redsys.php:295 woocommerce-redsys.php:297
+msgid "Enable PSD2"
+msgstr "Activar PSD2"
+
+#: woocommerce-redsys.php:183
+msgid "Redsys Lite  works redirecting customers to Redsys."
+msgstr "Redsys Lite funciona redirigiendo a los clientes a Redsys."
+
+#: woocommerce-redsys.php:182
+msgid "Redsys Lite (by Jose Conti)"
+msgstr "Redsys Lite (por José Conti)"
+
+#: about-redsys.php:33
+msgid "Please, test the plugin, and if you are happy with it, consider to make a "
+msgstr "Por favor, prueba el plugin, y si estás contento con él, considera realizar un "
+
+#: woocommerce-redsys.php:1682
+msgid "Make a Microsponsor"
+msgstr "Realiza un Microesponsor"
+
+#: woocommerce-redsys.php:1586 woocommerce-redsys.php:1588
+#: classes/class-wc-gateway-bizum-redsys.php:1307
+#: classes/class-wc-gateway-bizum-redsys.php:1314
+msgid "Refund Failed: No transaction ID"
+msgstr "Ha fallado el reembolso: Falta el ID de la transacción"
+
+#: woocommerce-redsys.php:1574 classes/class-wc-gateway-bizum-redsys.php:1294
+msgid "!!!!Refund Failed, please try again!!!!"
+msgstr "¡Reembolso fallido, por favor, prueba de nuevo!"
+
+#: woocommerce-redsys.php:1565 classes/class-wc-gateway-bizum-redsys.php:1285
+msgid "check_redsys_refund = false "
+msgstr "check_redsys_refund = false "
+
+#: woocommerce-redsys.php:1553 classes/class-wc-gateway-bizum-redsys.php:1272
+msgid "check_redsys_refund = true "
+msgstr "check_redsys_refund = true "
+
+#: woocommerce-redsys.php:1542 classes/class-wc-gateway-bizum-redsys.php:1261
+msgid "Refund Failed: "
+msgstr "Reembolso fallido:"
+
+#: woocommerce-redsys.php:1535
+msgid "check_redsys_refund Asking por order #: "
+msgstr "check_redsys_refund Pidiendo para el pedido #: "
+
+#: woocommerce-redsys.php:1505 classes/class-wc-gateway-bizum-redsys.php:1225
+msgid "Check order status with get_transient: "
+msgstr "Comprobando el estado mediante get_transient:"
+
+#: woocommerce-redsys.php:1504 classes/class-wc-gateway-bizum-redsys.php:1224
+msgid "Check order status #: "
+msgstr "Comprobando el estado del pedido #:"
+
+#: woocommerce-redsys.php:1501 classes/class-wc-gateway-bizum-redsys.php:1221
+msgid "Checking and waiting ping from Redsys"
+msgstr "Comprobando y esperando ping desde Redsys"
+
+#: woocommerce-redsys.php:1488 classes/class-wc-gateway-bizum-redsys.php:1205
+msgid "The error is : "
+msgstr "El error es :"
+
+#: woocommerce-redsys.php:1485 classes/class-wc-gateway-bizum-redsys.php:1202
+msgid "There is an error"
+msgstr "Hay un error"
+
+#: woocommerce-redsys.php:1459 classes/class-wc-gateway-bizum-redsys.php:1176
+msgid "ask_for_refund Asking por order #: "
+msgstr "ask_for_refund Pidiendo por el pedido #: "
+
+#: woocommerce-redsys.php:1458 classes/class-wc-gateway-bizum-redsys.php:1175
+msgid "Ds_Merchant_TransactionDate : "
+msgstr "Ds_Merchant_TransactionDate : "
+
+#: woocommerce-redsys.php:1457 classes/class-wc-gateway-bizum-redsys.php:1174
+msgid "DS_MERCHANT_AUTHORISATIONCODE : "
+msgstr "DS_MERCHANT_AUTHORISATIONCODE : "
+
+#: woocommerce-redsys.php:1456 classes/class-wc-gateway-bizum-redsys.php:1173
+msgid "DS_MERCHANT_MERCHANTNAME : "
+msgstr "DS_MERCHANT_MERCHANTNAME : "
+
+#: woocommerce-redsys.php:1455 classes/class-wc-gateway-bizum-redsys.php:1172
+msgid "DS_MERCHANT_PRODUCTDESCRIPTION : "
+msgstr "DS_MERCHANT_PRODUCTDESCRIPTION : "
+
+#: woocommerce-redsys.php:1454 classes/class-wc-gateway-bizum-redsys.php:1171
+msgid "DS_MERCHANT_CONSUMERLANGUAGE : 001"
+msgstr "DS_MERCHANT_CONSUMERLANGUAGE : 001"
+
+#: woocommerce-redsys.php:1453 classes/class-wc-gateway-bizum-redsys.php:1170
+msgid "DS_MERCHANT_URLKO : "
+msgstr "DS_MERCHANT_URLKO : "
+
+#: woocommerce-redsys.php:1452 classes/class-wc-gateway-bizum-redsys.php:1169
+msgid "DS_MERCHANT_URLOK : "
+msgstr "DS_MERCHANT_URLOK : "
+
+#: woocommerce-redsys.php:1451 classes/class-wc-gateway-bizum-redsys.php:1168
+msgid "DS_MERCHANT_MERCHANTURL : "
+msgstr "DS_MERCHANT_MERCHANTURL : "
+
+#: woocommerce-redsys.php:1450 classes/class-wc-gateway-bizum-redsys.php:1167
+msgid "DS_MERCHANT_TERMINAL : "
+msgstr "DS_MERCHANT_TERMINAL : "
+
+#: woocommerce-redsys.php:1449 classes/class-wc-gateway-bizum-redsys.php:1166
+msgid "DS_MERCHANT_TRANSACTIONTYPE : "
+msgstr "DS_MERCHANT_TRANSACTIONTYPE : "
+
+#: woocommerce-redsys.php:1448 classes/class-wc-gateway-bizum-redsys.php:1165
+msgid "DS_MERCHANT_CURRENCY : "
+msgstr "DS_MERCHANT_CURRENCY : "
+
+#: woocommerce-redsys.php:1447 classes/class-wc-gateway-bizum-redsys.php:1164
+msgid "DS_MERCHANT_MERCHANTCODE : "
+msgstr "DS_MERCHANT_MERCHANTCODE : "
+
+#: woocommerce-redsys.php:1446 classes/class-wc-gateway-bizum-redsys.php:1163
+msgid "DS_MERCHANT_ORDER : "
+msgstr "DS_MERCHANT_ORDER : "
+
+#: woocommerce-redsys.php:1445 classes/class-wc-gateway-bizum-redsys.php:1162
+msgid "DS_MERCHANT_AMOUNT : "
+msgstr "DS_MERCHANT_AMOUNT : "
+
+#: woocommerce-redsys.php:1444 classes/class-wc-gateway-bizum-redsys.php:1161
+msgid "URL to Redsys : "
+msgstr "URL a Redsys : "
+
+#: woocommerce-redsys.php:1441 classes/class-wc-gateway-bizum-redsys.php:1158
+msgid "Data sent to Redsys for refund"
+msgstr "Datos enviados a Redsys para devolución"
+
+#: woocommerce-redsys.php:1411 classes/class-wc-gateway-bizum-redsys.php:1130
+msgid "SHA256 : "
+msgstr "SHA256 : "
+
+#: woocommerce-redsys.php:1409 classes/class-wc-gateway-bizum-redsys.php:1128
+msgid "Currency Codey : "
+msgstr "Código de moneda : "
+
+#: woocommerce-redsys.php:1408 classes/class-wc-gateway-bizum-redsys.php:1127
+msgid "Authorization Date : "
+msgstr "Fecha autorización :"
+
+#: woocommerce-redsys.php:1407 classes/class-wc-gateway-bizum-redsys.php:1126
+msgid "Authorization Code : "
+msgstr "Código autorización : "
+
+#: woocommerce-redsys.php:1404 classes/class-wc-gateway-bizum-redsys.php:1123
+msgid "If something is empty, the data was not saved"
+msgstr "Si algo está vacío, el dato no fue guardado"
+
+#: woocommerce-redsys.php:1401 woocommerce-redsys.php:1406
+#: classes/class-wc-gateway-bizum-redsys.php:1120
+#: classes/class-wc-gateway-bizum-redsys.php:1125
+msgid "All data from meta"
+msgstr "Todos los datos desde meta"
+
+#: woocommerce-redsys.php:1370 woocommerce-redsys.php:1410
+#: classes/class-wc-gateway-bizum-redsys.php:1091
+#: classes/class-wc-gateway-bizum-redsys.php:1129
+msgid "Terminal : "
+msgstr "Terminal : "
+
+#: woocommerce-redsys.php:1366 classes/class-wc-gateway-bizum-redsys.php:1087
+msgid "Starting asking for Refund"
+msgstr "Comenzando la petición de reembolso"
+
+#: woocommerce-redsys.php:1057 classes/class-wc-gateway-bizum-redsys.php:878
+msgid "There was an error refunding"
+msgstr "Hubo un error reembolsando"
+
+#: woocommerce-redsys.php:1054 classes/class-wc-gateway-bizum-redsys.php:875
+msgid "Order Payment refunded"
+msgstr "Pago del pedido reembolsado"
+
+#: woocommerce-redsys.php:1684
+msgid "Sign up for the Telegram channel"
+msgstr "Date de alta en el canal de Telegram"
+
+#: woocommerce-redsys.php:1683
+msgid "Leave a review"
+msgstr "Deja una valoración"
+
+#: woocommerce-redsys.php:1681
+msgid "Discover the improvements"
+msgstr "Descubre las mejoras"
+
+#: woocommerce-redsys.php:1678
+msgid "Discover the improvements that have been made in this version, and how to take advantage of them "
+msgstr "Descubre las mejoras que ha habido en esta versión, y cómo sacarles beneficio."
+
+#: woocommerce-redsys.php:374 classes/class-wc-gateway-bizum-redsys.php:217
+msgid "Encryption secret passphrase SHA-256 provided by your bank for test mode."
+msgstr "Clave secreta de cifrado SHA256 facilitada por tu banco para el modo de pruebas."
+
+#: woocommerce-redsys.php:372 classes/class-wc-gateway-bizum-redsys.php:215
+msgid "TEST MODE: Encryption secret passphrase SHA-256"
+msgstr "Entorno de Pruebas: Clave secreta de cifrado SHA256"
+
+#: woocommerce-redsys.php:1713
+msgid "Don&#39;t miss a single thing!"
+msgstr "¡No te pierdas nada!"
+
+#: woocommerce-redsys.php:1711
+msgid "Sign up for the WooCommerce Redsys Gateway Telegram channel, and be the first to know everything."
+msgstr "Date de alta en el canal de WooCommerce Redsys Gateway de Telegram, y se el primero en saberlo todo."
+
+#: woocommerce-redsys.php:1708
+msgid "Do you want to be informed about the world of Redsys?"
+msgstr "¿Quieres estar informado del mundo de Redsys?"
+
+#: woocommerce-redsys.php:1674
+msgid "WooCommerce Redsys Gateway has been updated to version "
+msgstr "WooCommerce Redsys Gateway Light ha sido actualizado a la versión "
+
+#: woocommerce-redsys.php:1671 woocommerce-redsys.php:1706
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: woocommerce-redsys.php:1113
+msgid "Order cancelled by Redsys"
+msgstr "Pedido cancelado por Redsys"
+
+#: woocommerce-redsys.php:1650
+msgid "You have been using Redsys Lite plugin for more than 30 days, please, if you like, write a %s review. You will only need a moment and you will make me very happy. Thanks a lot"
+msgstr "Has estado utilizando el plugin Redsys Lite desde hace más de 30 días, por favor, si te gusta, escribe una reseña en %s. Solo necesitarás un momento y me harás muy feliz. Muchísimas gracias."
+
+#: woocommerce-redsys.php:1628
+msgid "If your orders are kept on waiting for Redsys payment, please open a thread in %s Forums, it has solution and it is not the fault of the plugin."
+msgstr "Si tu pedido se mantiene como a la espera de pago por Redsys, por favor, abre un hilo en los foros de %s, tiene solución y no es culpa del plugin."
+
+#: woocommerce-redsys.php:258 classes/class-wc-gateway-bizum-redsys.php:103
+msgid "check <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">FAQ page</a> for working problems, or open a <a href=\"%2$s\" target=\"_blank\" rel=\"noopener\">thread on WordPress.org</a> for support. Please, add a <a href=\"%3$s\" target=\"_blank\" rel=\"noopener\">review on WordPress.org</a>"
+msgstr "Mira la página de <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">FAQ</a> para problemas de funcionamiento, o abre <a href=\"%2$s\" target=\"_blank\" rel=\"noopener\">un hilo en WordPress.org</a> para soporte. Por favor, valora el plugin en <a href=\"%3$s\" target=\"_blank\" rel=\"noopener\">WordPress.org</a>"
+
+#: woocommerce-redsys.php:1100
+msgid "Order Completed by Redsys"
+msgstr "Pedido completado por Redsys"
+
+#: woocommerce-redsys.php:362
+msgid "Mark as Complete"
+msgstr "Marcar cómo completado"
+
+#: woocommerce-redsys.php:361
+msgid "Mark as Processing (default & recomended)"
+msgstr "Marcar como procesando (por defecto y recomendado)"
+
+#: woocommerce-redsys.php:358
+msgid "Chose what to do after the customer pay the order."
+msgstr "Selecciona que deseas hacer después de que el cliente pague el pedido."
+
+#: woocommerce-redsys.php:356
+msgid "What to do after payment?"
+msgstr "¿Qué hacer después del pago?"
+
+#. Description of the plugin
+msgid "Extends WooCommerce with a RedSys gateway. This is a Lite version, if you want many more, check the premium version https://woocommerce.com/products/redsys-gateway/"
+msgstr "Extiende WooCommerce con la pasarela Redsys. Esta es la versión Lite, si quieres mucho más, comprueba la versión premium https://woocommerce.com/products/redsys-gateway/"
+
+#: woocommerce-redsys.php:339
+msgid "Credit Card"
+msgstr "Tarjeta de crédito"
+
+#: woocommerce-redsys.php:338
+msgid "Credit Card & iUpay"
+msgstr "Tarjeta de crédito y Iupay"
+
+#: woocommerce-redsys.php:337
+msgid "All Methods"
+msgstr "Todos los métodos"
+
+#: woocommerce-redsys.php:334
+msgid "Chose options in Redsys Gateway (by Default Credit Card + iUpay)"
+msgstr "Selecciona las opciones en la pasarela de pago Redsys (por defecto tarjeta de crédito + iupay)"
+
+#: woocommerce-redsys.php:332
+msgid "Pay Options"
+msgstr "Opciones de pago"
+
+#: woocommerce-redsys.php:316
+msgid "Add link to image logo."
+msgstr "Añadir enlace a la imagen de logotipo."
+
+#: woocommerce-redsys.php:314
+msgid "Logo"
+msgstr "Logotipo"
+
+#: about-redsys.php:98
+msgid "With Tokenization, your customers can Pay with one click, after first order"
+msgstr "Con la tokenización (pago con referencia), tus clientes pueden pagar con un clic después del primer pedido."
+
+#: about-redsys.php:97
+msgid "Tokenization"
+msgstr "Tokenización (pago con referencia)"
+
+#: about-redsys.php:86
+msgid "With Refund, you can refund an Order from admin, you dont need to go to Redsys."
+msgstr "Con reembolso, puedes reembolsar los pedidos desde la administración, no necesitas ir a Redsys."
+
+#: about-redsys.php:85
+msgid "Refund from Order"
+msgstr "Reembolso desde el pedido"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/woo-redsys-gateway-light/"
+msgstr "https://es.wordpress.org/plugins/woo-redsys-gateway-light/"
+
+#. Author URI of the plugin
+msgid "https://www.joseconti.com/"
+msgstr "https://www.joseconti.com/"
+
+#. Author of the plugin
+msgid "José Conti"
+msgstr "José Conti"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Redsys Gateway Light"
+msgstr "WooCommerce Redsys Gateway Light"
+
+#: woocommerce-redsys.php:1739
+msgid "Redsys Authorisation Code"
+msgstr "Código autorización Redsys"
+
+#: woocommerce-redsys.php:1738
+msgid "Redsys Hour"
+msgstr "Hora Redsys"
+
+#: woocommerce-redsys.php:1737
+msgid "Redsys Date"
+msgstr "Fecha Redsys"
+
+#: woocommerce-redsys.php:1112
+msgid "Cancelled by Redsys"
+msgstr "Cancelado por Redys"
+
+#: woocommerce-redsys.php:884
+msgid "Thank you for your order, please click the button below to pay with Credit Card via Servired/RedSys."
+msgstr "Gracias por tu pedido, haz clic en el botón debajo para pagar con tu tarjeta de crédito mediante Servired/RedSys."
+
+#: woocommerce-redsys.php:823 woocommerce-redsys.php:859
+msgid "Pay with Credit Card via Servired/RedSys"
+msgstr "Pagar con tarjeta de crédito a través de Servired/RedSys."
+
+#: woocommerce-redsys.php:803 woocommerce-redsys.php:839
+msgid "Thank you for your order. We are now redirecting you to Servired/RedSys to make the payment."
+msgstr "Gracias por tu pedido, ahora está siendo redirigido a Servired/RedSys para realizar el pago."
+
+#: woocommerce-redsys.php:353 classes/class-wc-gateway-bizum-redsys.php:206
+msgid "If you are using HTTPS and Redsys don't support your certificate, example Lets Encrypt, you can deactivate HTTPS notifications. WARNING: If you are forcing redirection to HTTPS with htaccess, you need to add an exception for notification URL"
+msgstr "Si estás usando HTTPS y Redsys no es compatible con tu certificado, por ejemplo Let’s Encrypt, debes activar esta función. ATENCIÓN: Si estás forzando la redirección a HTTPS mediante htaccess (si usas Really Simple SSL seguro que lo haces), necesitas añadir una excepción para que no redirija la URL de notificación"
+
+#: woocommerce-redsys.php:351 classes/class-wc-gateway-bizum-redsys.php:204
+msgid "Activate SNI Compatibility."
+msgstr "Activa compatibilidad con certificados SNI."
+
+#: woocommerce-redsys.php:349 classes/class-wc-gateway-bizum-redsys.php:202
+msgid "HTTPS SNI Compatibility"
+msgstr "Compatibilidad HTTPS SNI"
+
+#: woocommerce-redsys.php:326 woocommerce-redsys.php:328
+#: classes/class-wc-gateway-bizum-redsys.php:184
+#: classes/class-wc-gateway-bizum-redsys.php:186
+msgid "Commerce Name"
+msgstr "Nombre de comercio"
+
+#: woocommerce-redsys.php:311
+msgid "Pay via Servired/RedSys; you can pay with your credit card."
+msgstr "Pagar con tarjeta de crédito a través de Servired/RedSys."
+
+#: woocommerce-redsys.php:291
+msgid "Enable Servired/RedSys"
+msgstr "Activar Servired/RedSys"
+
+#: woocommerce-redsys.php:260
+msgid "Servired/RedSys works by sending the user to your bank TPV to enter their payment information."
+msgstr "La pasarela Servired/RedSys envía a tu cliente al TPV de su entidad bancaria para ingresar su información para el pago."
+
+#: woocommerce-redsys.php:250
+msgid "Servired/RedSys Spain"
+msgstr "Servired/RedSys España"
+
+#: woocommerce-redsys.php:225
+msgid "WARNING: The PHP mcrypt_encrypt module is not installed on your server. The API Redsys SHA-256 needs this module in order to work.\tPlease contact your hosting provider and ask them to install it. Otherwise, your shop will stop working."
+msgstr "ATENCIÓN: El módulo PHP mcrypt_encrypt no está instalado en el servidor. La API de SHA-256 de Redsys necesita este módulo para funcionar. Por favor, contacta con to proveedor de hosting para pedirle que lo instale. De otro modo tu tienda no podrá utilizar Redsys."
+
+#: woocommerce-redsys.php:304
+msgid "Servired/RedSys"
+msgstr "Servired/RedSys"
+
+#: woocommerce-redsys.php:75
+msgid "About Redsys"
+msgstr "Sobre Redsys"
+
+#: woocommerce-redsys.php:1736
+msgid "Payment Details"
+msgstr "Detalles del pago"
+
+#: woocommerce-redsys.php:1097 classes/class-wc-gateway-bizum-redsys.php:1020
+msgid "Authorization code: "
+msgstr "Código autorización: "
+
+#: woocommerce-redsys.php:1096 classes/class-wc-gateway-bizum-redsys.php:1019
+msgid "HTTP Notification received - payment completed"
+msgstr "Notificación HTTP recibida - pago completado"
+
+#. translators: order an received are the amount
+#: woocommerce-redsys.php:1073 classes/class-wc-gateway-bizum-redsys.php:896
+msgid "Validation error: Order vs. Notification amounts do not match (order: %1$s - received: %2&s)."
+msgstr "Error de validación: Los totales de pedido y del aviso no coinciden (pedido: %1$s - recibido: %2&s)."
+
+#: classes/class-wc-gateway-bizum-redsys.php:642
+msgid "Thank you for your order, please click the button below to pay with Bizum."
+msgstr "Gracias por tu pedido, por favor haz clic en el siguiente botón para pagar con Bizum."
+
+#: woocommerce-redsys.php:823 woocommerce-redsys.php:859
+#: classes/class-wc-gateway-bizum-redsys.php:610
+msgid "Cancel order &amp; restore cart"
+msgstr "Cancelar pedido &amp; restablecer carrito"
+
+#: classes/class-wc-gateway-bizum-redsys.php:590
+msgid "Thank you for your order. We are now redirecting you to Bizum to make the payment."
+msgstr "Gracias por tu pedido. Ahora te estamos redirigiendo a Bizum para que puedas realizar el pago."
+
+#: woocommerce-redsys.php:721 woocommerce-redsys.php:761
+#: woocommerce-redsys.php:1436 woocommerce-redsys.php:1455
+#: classes/class-wc-gateway-redsys-global.php:817
+msgid "Order"
+msgstr "Pedido"
+
+#: woocommerce-redsys.php:426 classes/class-wc-gateway-bizum-redsys.php:238
+msgid "Enable logging"
+msgstr "Habilitar registro"
+
+#: woocommerce-redsys.php:424 classes/class-wc-gateway-bizum-redsys.php:235
+msgid "Debug Log"
+msgstr "Registro de depuración"
+
+#: woocommerce-redsys.php:421 classes/class-wc-gateway-bizum-redsys.php:232
+msgid "Select this option for the initial testing required by your bank, deselect this option once you pass the required test phase and your production environment is active."
+msgstr "Elige esta opción para las pruebas iniciales requeridas por tu entidad bancaria, desmarca esta opción una vez hayas pasado la fase de pruebas obligatoria y tu entorno de producción esté activo."
+
+#: woocommerce-redsys.php:417 woocommerce-redsys.php:419
+#: classes/class-wc-gateway-bizum-redsys.php:228
+#: classes/class-wc-gateway-bizum-redsys.php:230
+#: classes/class-wc-gateway-bizum-redsys.php:237
+msgid "Running in test mode"
+msgstr "Ejecutando en entorno de pruebas"
+
+#: woocommerce-redsys.php:380 classes/class-wc-gateway-bizum-redsys.php:223
+msgid "Choose the language for the Gateway. Not all Banks accept all languages"
+msgstr "Selecciona el idioma para la pasarela de pago. No todos los bancos aceptan todos los idiomas"
+
+#: woocommerce-redsys.php:378 classes/class-wc-gateway-bizum-redsys.php:221
+msgid "Language Gateway"
+msgstr "Idioma de la pasarela"
+
+#: woocommerce-redsys.php:368 classes/class-wc-gateway-bizum-redsys.php:211
+msgid "Encryption secret passphrase SHA-256 provided by your bank."
+msgstr "Clave secreta de cifrado SHA256 facilitada por tu banco."
+
+#: woocommerce-redsys.php:366 classes/class-wc-gateway-bizum-redsys.php:209
+msgid "Encryption secret passphrase SHA-256"
+msgstr "Clave secreta de cifrado SHA256"
+
+#: woocommerce-redsys.php:345 classes/class-wc-gateway-bizum-redsys.php:192
+msgid "Terminal number provided by your bank."
+msgstr "Número de terminal facilitado por tu entidad bancaria."
+
+#: woocommerce-redsys.php:343 classes/class-wc-gateway-bizum-redsys.php:190
+msgid "Terminal number"
+msgstr "Número de terminal"
+
+#: woocommerce-redsys.php:322 classes/class-wc-gateway-bizum-redsys.php:180
+msgid "Commerce number (FUC) provided by your bank."
+msgstr "Número de comercio (FUC) facilitado por tu entidad bancaria."
+
+#: woocommerce-redsys.php:320 classes/class-wc-gateway-bizum-redsys.php:178
+msgid "Commerce number (FUC)"
+msgstr "Número de comercio (FUC)"
+
+#: woocommerce-redsys.php:310 classes/class-wc-gateway-bizum-redsys.php:174
+msgid "This controls the description which the user sees during checkout."
+msgstr "Esto controla la descripción que el cliente ve al finalizar la compra."
+
+#: woocommerce-redsys.php:308 classes/class-wc-gateway-bizum-redsys.php:172
+msgid "Description"
+msgstr "Descripción"
+
+#: woocommerce-redsys.php:303 classes/class-wc-gateway-bizum-redsys.php:167
+msgid "This controls the title which the user sees during checkout."
+msgstr "Esto controla el título que el cliente ve al finalizar la compra."
+
+#: woocommerce-redsys.php:301 classes/class-wc-gateway-bizum-redsys.php:165
+msgid "Title"
+msgstr "Título"
+
+#: woocommerce-redsys.php:289 classes/class-wc-gateway-bizum-redsys.php:159
+msgid "Enable/Disable"
+msgstr "Activar/Desactivar"
+
+#: woocommerce-redsys.php:276
+msgid "Servired/RedSys only support EUROS &euro; and BRL currency."
+msgstr "Servired/RedSys en estos momentos solo es compatible con las monedas EURO &euro; y BRL"
+
+#: woocommerce-redsys.php:276 classes/class-wc-gateway-bizum-redsys.php:125
+msgid "Gateway Disabled"
+msgstr "Pasarela desactivada"
+
+#: woocommerce-redsys.php:265 classes/class-wc-gateway-bizum-redsys.php:107
+msgid "The Gateway will be shown in the customer language. The option \"Language Gateway\" is not taken into consideration"
+msgstr "La pasarela de pago se mostrará en el idioma del cliente. La opción «Idioma de la pasarela» no se tendrá en cuenta"
+
+#: woocommerce-redsys.php:264 classes/class-wc-gateway-bizum-redsys.php:106
+msgid "Attention! WPML detected."
+msgstr "¡Atención! detectado WPML."
+
+#: about-redsys.php:163
+msgid "With Export Orders to CSV, you will download a CSV with all your orders between two dates, so you will be able to import that CSV to your contatibility software or in an Excel or similar to Excel."
+msgstr "Con la exportación de pedidos a CSV, descargarás un CSV con todos tus pedidos entre dos fechas, así que serás capaz de importar el CSV a tu software de contabilidad o a un Excel o similar."
+
+#: about-redsys.php:162
+msgid "Export Orders to CSV for has all needed data. With this feature, you can easily get all the data you need."
+msgstr "Exportación de pedidos a CSV para todos los datos necesarios. Con esta características, podrás de una forma sencilla conseguir todos los datos que necesitas."
+
+#: about-redsys.php:161
+msgid "Export Orders to CSV"
+msgstr "Exportar pedidos a CSV"
+
+#: about-redsys.php:150
+msgid "By default, the order is cancelled, but with this option you can redirect the customer to the checkout page without cancelling the order, so You get a new opportunity for get a conversion!."
+msgstr "Por defecto, los pedidos son cancelados, pero con esta opción podrás redireccionar a tus clientes a la página de pago sin cancelar el pedido, ¡así que obtendrás una nueva oportunidad de conseguir una conversión!"
+
+#: about-redsys.php:149
+msgid "With the select error action, you can set what happen when a customer make an error typing his credit card."
+msgstr "Con la selección de la acción en error, podrás configurar que sucede cuando un cliente comete un error al introducir su tarjeta de crédito."
+
+#: about-redsys.php:148
+msgid "Select error action"
+msgstr "Selecciona la acción frente a error"
+
+#: about-redsys.php:137
+msgid "With the Pro version, you will get Sequential Invoice Number so all your payed orders will have a sequential number, complying with the Spanish public finances."
+msgstr "Con la versión premium, conseguirás el número secuencial de facturas, para que todos tus pedidos pagados tengan un número secuencial, cumpliendo con la Hacienda pública española."
+
+#: about-redsys.php:136
+msgid "Get Sequential Invoice Number with the Pro version. Sequential Invoice Number is mandatory for Spain."
+msgstr "Consigue el número secuencial de factura con la versión premium. El número secuencial de factura es obligatorio en España."
+
+#: about-redsys.php:135
+msgid "Sequential Invoice Number"
+msgstr "Número secuencial de facturas"
+
+#: about-redsys.php:123
+msgid "With two terminals you can have the right balance between security and risk. You will not lose orders on cheap purchases, and you will protect yourself from expensive order frauds"
+msgstr "Con dos terminales puedes tener el equilibrio adecuado entre seguridad y riesgo. No perderás pedidos en compras de bajo coste, y estarás protegido frente a fraudes en los pedidos de alto precio"
+
+#: about-redsys.php:122
+msgid "With the Second terminal, you can add a security check for expensive orders, and a direct pay (without security check) for cheapest orders."
+msgstr "Con el segundo terminal puedes añadir seguridad a los pedidos caros, y un pago directo (sin comprobación de seguridad) para los pedidos más económicos."
+
+#: about-redsys.php:121
+msgid "Second terminal"
+msgstr "Segundo terminal"
+
+#: about-redsys.php:110
+msgid "You can watch premium features in action in this video. If you watch this video, you can evaluate the features of the premium version and in this way, assess if you are interested. After viewing it, you can evaluate if you are interested in buying it."
+msgstr "Puedes ver todas las características premium en acción en este video. Si ves el video, podrás valorar las características de la versión premium, y de este modo, decidir si te interesa. Después de verlo, decide si la adquieres."
+
+#: about-redsys.php:109
+msgid "Video demostration"
+msgstr "Demostración en vídeo"
+
+#: about-redsys.php:82
+msgid "Features of Premium Version"
+msgstr "Características de la versión premium"
+
+#: about-redsys.php:76
+msgid "Because this is the official WooCommerce Extension, always will be compatible with the latest WooCommerce version. All official extension are constantly audited by WooCommerce team ensuring compatibility with the latest WooCommerce version"
+msgstr "Ya que esta extensión es una extensión oficial de WooCommerce, siempre será compatible con la última versión. Todas las versiones oficiales son constantemente auditadas por el equipo de WooCommerce asegurándose la compatibilidad con la última versión de WooCommerce."
+
+#: about-redsys.php:75
+msgid "Always compatible"
+msgstr "Siempre compatible"
+
+#: about-redsys.php:72
+msgid "This extension is SNI Ready, so will work with Let&#8217;s Encrypt certificate. Without SNI Compatibility, you orders will not market as paid after customer pais at Redsys because Redsys will not be able to communicate with your website."
+msgstr "Esta extensión está preparada para SNI, así que funcionará con certificados como Let&#8217;s Encrypt. Sin la compatibilidad SNI, tus pedidos no se marcarán como pagados después de que tus clientes paguen en Redsys, ya que Redsys no será capaz de comunicarse con tu sitio."
+
+#: about-redsys.php:71
+msgid "SNI Compatibility"
+msgstr "Compatibilidad con SNI"
+
+#: about-redsys.php:68
+msgid "This extension is WPML ready. If you use WPML, Redsys Gateway will be shown in the customer language, don&#8217;t lose orders because the customer don&#8217;t understand the predefined language gateway. If you use WPML, the language selection in settings is not needed"
+msgstr "Esta extensión está preparada para WPML. Si utilizas WPML, la pasarela Redsys se mostrará en el idioma del cliente, no pierdas pedidos porque no entiendan el idioma predefinido. Si utilizas WPML la selección de idioma en la configuración no es necesaria."
+
+#: about-redsys.php:67
+msgid "WMPL Ready"
+msgstr "Preparado para WPML"
+
+#: about-redsys.php:64
+msgid "Select the Redsys Gateway Language from settings. You can select the Redsys Gateway language from settings, so if you have several shops, you can select a different language for each one."
+msgstr "Selecciona el idioma de la pasarela de Redsys desde las configuración. Puedes seleccionar el idioma de la pasarela desde la configuración, así que si tienes diferentes tiendas, puedes seleccionar un idioma para cada una."
+
+#: about-redsys.php:63
+msgid "Select a Language"
+msgstr "Selecciona un idioma"
+
+#: about-redsys.php:60
+msgid "Features of light version"
+msgstr "Características de la versión light"
+
+#: about-redsys.php:54
+msgid "Get the pro version at WooCommerce.com"
+msgstr "Consigue la versión premian en WooCommerce.com"
+
+#. translators: link to woocommerce.com
+#: about-redsys.php:47
+msgid "With the premium version you get many important features like tokenization, refund, two terminals, error actions, Sequential Invoice Number, invoice export, etc. See all features %s"
+msgstr "Con la versión premium adquieres muchas características importantes como el pago con referencia (pago con 1 clic), reembolso, dos terminales, acciones frente a errores, números secuenciales de facturas, exportación de facturas, etc. Mira todas las características %s"
+
+#. translators: link to woocommerce.com
+#: about-redsys.php:41
+msgid "This WooCommerce extension has all you need for start selling through Redsys. It is full compatible with WPML. If you need more power, you can buy the premium extension at %s."
+msgstr "Esta extensión de WooCommerce tiene todo lo que necesitas para comenzar a vender a través de Redsys. Es totalmente compatible con WPML. Si necesitas más cosas, puedes adquirir la versión premium en %s."
+
+#: about-redsys.php:37
+msgid "This gateway is the light version of official WooCommerce Redsys plugin at WooCommerce.com"
+msgstr "Esta pasarela es la versión light de la extensión oficial de Redsys en WooCommerce.com"
+
+#: about-redsys.php:30
+msgid "The official WooCommerce.com extension"
+msgstr "La extensión oficial de WooCommerce.com"
+
+#: about-redsys.php:25
+msgid "What&#8217;s New"
+msgstr "Qué hay nuevo"
+
+#. translators: plugin version number
+#: about-redsys.php:21
+msgid "Version %s"
+msgstr "Versión %s"
+
+#: about-redsys.php:17
+msgid "Thank you for install the latest version! WooCommerce Redsys Gateway light, democratizing ecommerce."
+msgstr "¡Gracias por instalar la última versión! WooCommerce Redsys Gateway light, democratizando el ecommerce."
+
+#. translators: plugin version number
+#: about-redsys.php:14
+msgid "Welcome to WooCommerce Redsys %s"
+msgstr "Bienvenido a WooCommerce Redsys %s"
+
+#: about-redsys.php:8
+msgid "Here"
+msgstr "Aquí"

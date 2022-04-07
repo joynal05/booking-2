@@ -1,0 +1,229 @@
+# Translation of Plugins - Invisible reCaptcha for WordPress - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Invisible reCaptcha for WordPress - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-19 07:27:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Invisible reCaptcha for WordPress - Development (trunk)\n"
+
+#: includes/task-scheduler/MchGdbcWpTaskScheduler.php:96
+msgid "Every "
+msgstr "Cada "
+
+#: engine/Admin/Pages/BaseAdminPage.php:32
+msgid "Need help? Have questions...?"
+msgstr "¿Necesitas ayuda? ¿Tienes preguntas…?"
+
+#: engine/Modules/Membership/UltraCommunity/UltraCommunityPublicModule.php:35
+#: engine/Modules/Membership/UltraCommunity/UltraCommunityPublicModule.php:53
+msgid "We've encountered an error while trying to validate reCaptcha!"
+msgstr "¡Hemos encontrado un error al tratar de validar reCaptcha!"
+
+#: engine/Modules/WooCommerce/WooCommercePublicModule.php:89
+msgid "Sorry, Google reCaptcha was not validated!"
+msgstr "¡Lo siento, Google reCaptcha no ha sido validado!"
+
+#: engine/Modules/Membership/BuddyPress/BuddyPressPublicModule.php:35
+msgid "Google reCaptcha was not validated!"
+msgstr "¡Google reCaptcha no ha sido validado!"
+
+#: engine/Modules/Membership/BuddyPress/BuddyPressAdminModule.php:61
+#: engine/Modules/Membership/UltraCommunity/UltraCommunityAdminModule.php:67
+#: engine/Modules/WooCommerce/WooCommerceAdminModule.php:97
+msgid " Protection Settings"
+msgstr "Ajustes de protección"
+
+#: engine/Controllers/ModulesController.php:75
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: engine/Controllers/ModulesController.php:65
+msgid "UltraCommunity"
+msgstr "UltraCommunity"
+
+#: engine/Modules/ContactForms/ContactFormsAdminModule.php:43
+msgid "A list of comma separated Gravity Forms IDs which should not be protected by Invisible reCaptcha"
+msgstr "Una lista separada por comas de ID de Gravity Forms que no deberían ser protegidos por Invisible reCaptcha"
+
+#: engine/Modules/ContactForms/ContactFormsAdminModule.php:41
+msgid "Excluded Gravity Forms IDs"
+msgstr "ID de Gravity Forms excluidos"
+
+#: engine/Modules/ContactForms/ContactFormsAdminModule.php:35
+msgid "Enable Protection for Gravity Forms"
+msgstr "Activar la protección para Gravity Forms"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:48
+msgid "The language to be used by Google for Badge and Challenge(if it will be shown)"
+msgstr "El idioma a usar por Google para la insignia y el desafío (en caso de que se muestren)"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:46
+msgid "Language"
+msgstr "Idioma"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:105
+msgid "Inline"
+msgstr "Integrada"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:104
+msgid "Bottom Left"
+msgstr "Abajo a la izquierda"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:103
+msgid "Bottom Right"
+msgstr "Abajo a la derecha"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:98
+msgid "Automatically detect"
+msgstr "Detectar automáticamente"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:62
+msgid "The CSS used to restyle the reCaptcha badge. This will be applied only if the badge position is set to Inline!"
+msgstr "El CSS usado para rediseñar la Insignia de reCaptcha. ¡Esto solo se aplicará si la posición de la Insignia está establecida como integrada!"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:60
+msgid "Badge Custom CSS"
+msgstr "CSS personalizado de la insignia"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:55
+msgid "Reposition the reCaptcha badge. The 'Inline' value allows you to style it using CSS"
+msgstr "Reposición de la insignia de reCaptcha. El valor «Integrada» te permite diseñarlo usando CSS"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:53
+msgid "Badge Position"
+msgstr "Posición de la insignia"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:85
+#: engine/Modules/Membership/BuddyPress/BuddyPressAdminModule.php:44
+#: engine/Modules/Membership/UltraCommunity/UltraCommunityAdminModule.php:50
+#: engine/Modules/WooCommerce/WooCommerceAdminModule.php:80
+#: engine/Modules/WordPress/WordPressAdminModule.php:69
+msgid "Your changes were successfully saved!"
+msgstr "¡Tus cambios han sido guardados correctamente!"
+
+#. Author of the plugin
+msgid "Mihai Chelaru"
+msgstr "Mihai Chelaru"
+
+#. Description of the plugin
+msgid "Google Invisible reCaptcha for WordPress."
+msgstr "Google reCaptcha invisible para WordPress."
+
+#. Plugin Name of the plugin
+msgid "Invisible reCaptcha"
+msgstr "Invisible reCaptcha"
+
+#: includes/utils/FontAwesomeIconParser.php:45
+msgid "No Icon"
+msgstr "Sin icono"
+
+#: includes/task-scheduler/MchGdbcWpTaskScheduler.php:30
+msgid "Once a month"
+msgstr "Una vez al mes"
+
+#: includes/task-scheduler/MchGdbcWpTaskScheduler.php:25
+msgid "Once Weekly"
+msgstr "Una vez a la semana"
+
+#: engine/Modules/WordPress/WordPressPublicModule.php:145
+msgid "Invalid username or incorrect password!"
+msgstr "¡Nombre de usuario no válido o contraseña incorrecta!"
+
+#: engine/Modules/WordPress/WordPressPublicModule.php:95
+#: engine/Modules/WordPress/WordPressPublicModule.php:107
+msgid "Registration Error!"
+msgstr "¡Error de registro!"
+
+#: engine/Modules/WordPress/WordPressAdminModule.php:60
+msgid "WordPress Protection Settings"
+msgstr "Ajustes de protección de WordPress"
+
+#: engine/Modules/WordPress/WordPressAdminModule.php:48
+msgid "Enable Forgot Password Form Protection"
+msgstr "Activar la protección del formulario de contraseña olvidada"
+
+#: engine/Modules/WordPress/WordPressAdminModule.php:42
+msgid "Enable Comments Form Protection"
+msgstr "Activar la protección del formulario de comentarios"
+
+#: engine/Modules/WooCommerce/WooCommercePublicModule.php:191
+#: engine/Modules/WordPress/WordPressPublicModule.php:164
+msgid "Comment Submission Failure"
+msgstr "Fallo al enviar el comentario"
+
+#: engine/Modules/WooCommerce/WooCommercePublicModule.php:191
+#: engine/Modules/WordPress/WordPressPublicModule.php:164
+msgid "Link Notifications are disabled!"
+msgstr "¡Los avisos de enlaces están desactivados!"
+
+#: engine/Modules/WooCommerce/WooCommercePublicModule.php:65
+#: engine/Modules/WooCommerce/WooCommercePublicModule.php:126
+msgid "Your entry appears to be spam!"
+msgstr "¡Parece que tu entrada es spam!"
+
+#: engine/Modules/WooCommerce/WooCommerceAdminModule.php:60
+msgid "Enable Product Review Form Protection"
+msgstr "Activar la protección del formulario de valoración de productos"
+
+#: engine/Modules/WooCommerce/WooCommerceAdminModule.php:54
+msgid "Enable Reset Password Form Protection"
+msgstr "Activar la protección del formulario para restablecer la contraseña"
+
+#: engine/Modules/WooCommerce/WooCommerceAdminModule.php:48
+msgid "Enable Lost Password Form Protection"
+msgstr "Activar la protección del formulario de contraseña perdida"
+
+#: engine/Modules/Membership/BuddyPress/BuddyPressAdminModule.php:31
+#: engine/Modules/Membership/UltraCommunity/UltraCommunityAdminModule.php:37
+#: engine/Modules/WooCommerce/WooCommerceAdminModule.php:42
+#: engine/Modules/WordPress/WordPressAdminModule.php:36
+msgid "Enable Registration Form Protection"
+msgstr "Activar la protección del formulario de registro"
+
+#: engine/Modules/Membership/UltraCommunity/UltraCommunityAdminModule.php:31
+#: engine/Modules/WooCommerce/WooCommerceAdminModule.php:36
+#: engine/Modules/WordPress/WordPressAdminModule.php:30
+msgid "Enable Login Form Protection"
+msgstr "Activar la protección del formulario de acceso"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:40
+msgid "Your Secret Key"
+msgstr "Tu clave secreta"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:34
+msgid "Your Site Key"
+msgstr "Tu clave del sitio"
+
+#: engine/Modules/ContactForms/ContactFormsAdminModule.php:76
+msgid "Contact Forms Protection Settings"
+msgstr "Ajustes de la protección para formularios de contacto"
+
+#: engine/Modules/ContactForms/ContactFormsAdminModule.php:29
+msgid "Enable Protection for Contact Form 7"
+msgstr "Activar la protección para Contact Form 7"
+
+#: engine/Controllers/ModulesController.php:55
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: engine/Controllers/ModulesController.php:45
+msgid "Contact Forms"
+msgstr "Formularios de contacto"
+
+#: engine/Controllers/ModulesController.php:35
+msgid "WordPress"
+msgstr "WordPress"
+
+#: engine/AdminEngine.php:19 engine/Controllers/ModulesController.php:25
+msgid "Settings"
+msgstr "Ajustes"
+
+#: engine/Modules/Settings/SettingsAdminModule.php:73
+#: engine/Admin/Pages/SettingsAdminPage.php:29
+msgid "Invisible reCaptcha Settings"
+msgstr "Ajustes de Invisible reCaptcha"
